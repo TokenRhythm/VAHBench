@@ -1,0 +1,46 @@
+{
+ "traceSchema": "hermes-trajectory",
+ "schemaVersion": 1,
+ "generatedAt": "2026-08-21T15:09:50.700598",
+ "traceId": "f3627a87-ef0b-4f65-87f6-d2c8d65bb427",
+ "sessionId": "f3627a87-ef0b-4f65-87f6-d2c8d65bb427",
+ "sessionKey": "hermes:api_server:video5cat_002",
+ "workspaceDir": "$WORKSPACE_DIR",
+ "eventCount": 533,
+ "sourceFiles": {
+  "requestDumps": "$HERMES_HOME/sessions",
+  "responseDumps": "$HERMES_HOME/sessions"
+ },
+ "supplementalFiles": [
+  "metadata.json",
+  "artifacts.json",
+  "prompts.json",
+  "tools.json"
+ ],
+ "contents": [
+  {
+   "path": "artifacts.json",
+   "bytes": 114542
+  },
+  {
+   "path": "events.jsonl",
+   "bytes": 995002
+  },
+  {
+   "path": "metadata.json",
+   "bytes": 972
+  },
+  {
+   "path": "prompts.json",
+   "bytes": 41513
+  },
+  {
+   "path": "session-branch.json",
+   "bytes": 925305
+  },
+  {
+   "path": "tools.json",
+   "bytes": 63144
+  }
+ ]
+}

@@ -1,0 +1,3351 @@
+{
+ "traceSchema": "hermes-trajectory",
+ "schemaVersion": 1,
+ "generatedAt": "2026-08-21T15:09:50.700598",
+ "traceId": "f3627a87-ef0b-4f65-87f6-d2c8d65bb427",
+ "sessionId": "f3627a87-ef0b-4f65-87f6-d2c8d65bb427",
+ "sessionKey": "hermes:api_server:video5cat_002",
+ "finalStatus": {
+  "status": "completed",
+  "reason": "hard limit: completed",
+  "terminal_reason": "user_task_done",
+  "judged_by": "builtin_rule",
+  "judge_detail": null
+ },
+ "usage": {
+  "input": 15876836,
+  "output": 134470,
+  "total": 16011306
+ },
+ "totals": {
+  "n_dialog_turns": 2,
+  "n_llm_calls": 122,
+  "n_tool_calls": 0,
+  "n_tool_results": 0,
+  "prompt_tokens": 12510517,
+  "completion_tokens": 112314,
+  "total_tokens": 12622831,
+  "cost_usd": 0.0,
+  "elapsed_seconds": 10122.31
+ },
+ "mediaAcceptance": {
+  "checked": true,
+  "acceptance_ok": false,
+  "requested_duration_s": 120.0,
+  "video_count": 100,
+  "videos": [
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/tmp__slates__E1_slate.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 3.166667,
+    "duration_error_ratio": 0.9736111083333333,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 3.166667
+    },
+    "artifact_id": null,
+    "filename": "tmp__slates__E1_slate.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/tmp__slates__E2_slate.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 3.166667,
+    "duration_error_ratio": 0.9736111083333333,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 3.166667
+    },
+    "artifact_id": null,
+    "filename": "tmp__slates__E2_slate.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/tmp__slates__E3_slate.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 3.166667,
+    "duration_error_ratio": 0.9736111083333333,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 3.166667
+    },
+    "artifact_id": null,
+    "filename": "tmp__slates__E3_slate.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/tmp__slates__EP1_joined.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance",
+     "static_or_frozen_video_detected"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 21.401693,
+    "duration_error_ratio": 0.8216525583333334,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": false,
+    "freeze_ratio": 0.14952228312031202,
+    "freeze_longest_s": 3.20003,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "784896/32873",
+     "duration_s": 21.401693
+    },
+    "artifact_id": null,
+    "filename": "tmp__slates__EP1_joined.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/tmp__slates__EP2_joined.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance",
+     "static_or_frozen_video_detected"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 21.401693,
+    "duration_error_ratio": 0.8216525583333334,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": false,
+    "freeze_ratio": 0.14952228312031202,
+    "freeze_longest_s": 3.20003,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "784896/32873",
+     "duration_s": 21.401693
+    },
+    "artifact_id": null,
+    "filename": "tmp__slates__EP2_joined.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/tmp__slates__EP3_joined.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance",
+     "static_or_frozen_video_detected"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 27.481689,
+    "duration_error_ratio": 0.770985925,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": false,
+    "freeze_ratio": 0.11644226088141817,
+    "freeze_longest_s": 3.20003,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "2686976/112565",
+     "duration_s": 27.481689
+    },
+    "artifact_id": null,
+    "filename": "tmp__slates__EP3_joined.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_clipA_hook.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_clipA_hook.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_clipB_ballroom.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_clipB_ballroom.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_clipC_marginReveal.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_clipC_marginReveal.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_clipA_ledger.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_clipA_ledger.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_clipB_board.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_clipB_board.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_clipC_microsignal.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_clipC_microsignal.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_clipA_forgery.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_clipA_forgery.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_clipB_letters.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_clipB_letters.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_clipC_terraceso.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_clipC_terraceso.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_clipD_wide.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_clipD_wide.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/EP1_reel.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance",
+     "static_or_frozen_video_detected"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 21.375,
+    "duration_error_ratio": 0.821875,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": false,
+    "freeze_ratio": 0.12475649122807017,
+    "freeze_longest_s": 2.66667,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "4088/171",
+     "duration_s": 21.375
+    },
+    "artifact_id": null,
+    "filename": "EP1_reel.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/EP2_reel.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance",
+     "static_or_frozen_video_detected"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 21.375,
+    "duration_error_ratio": 0.821875,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": false,
+    "freeze_ratio": 0.1267054970760234,
+    "freeze_longest_s": 2.70833,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "4088/171",
+     "duration_s": 21.375
+    },
+    "artifact_id": null,
+    "filename": "EP2_reel.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/EP3_reel.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance",
+     "static_or_frozen_video_detected"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 27.458333,
+    "duration_error_ratio": 0.7711805583333333,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": false,
+    "freeze_ratio": 0.09863417418675781,
+    "freeze_longest_s": 2.70833,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "15744/659",
+     "duration_s": 27.458333
+    },
+    "artifact_id": null,
+    "filename": "EP3_reel.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_124012_db227c22.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_124012_db227c22.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_124208_286e6e07.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_124208_286e6e07.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_124551_fc56e332.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_124551_fc56e332.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_124734_3a0067ee.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_124734_3a0067ee.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_124949_1927789d.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_124949_1927789d.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_125203_ac69e759.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_125203_ac69e759.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_125428_b748e0d0.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_125428_b748e0d0.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_125641_2b7b0419.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_125641_2b7b0419.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_125855_d83f9331.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_125855_d83f9331.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_130041_c3eccb78.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_130041_c3eccb78.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c10_signing.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c10_signing.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c11_celestepresides.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c11_celestepresides.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c12_ballroom_drift.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c12_ballroom_drift.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c13_letterheirloom.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c13_letterheirloom.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c14_hotelwide.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c14_hotelwide.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c2_workshop.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c2_workshop.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c3_leoletter.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c3_leoletter.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c4_adrianwindow.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c4_adrianwindow.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c5_negotiation.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c5_negotiation.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c6_ringrefuse.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c6_ringrefuse.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c7_hands.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c7_hands.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c8_soften.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c8_soften.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E1_c9_reading.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E1_c9_reading.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_c10_ledgerlamp.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_c10_ledgerlamp.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_c1_beamrepair.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_c1_beamrepair.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_c2_ledgerdoc.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_c2_ledgerdoc.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_c3_brooch.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_c3_brooch.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_c4_evidence.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_c4_evidence.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_c5_deflect.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_c5_deflect.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_c6_filings.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_c6_filings.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_c7_irisalone.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_c7_irisalone.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_c8_dining.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_c8_dining.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E2_c9_boardpre.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E2_c9_boardpre.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_c10_handsletters.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_c10_handsletters.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_c11_ballroomvoid.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_c11_ballroomvoid.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_c1_counterplan.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_c1_counterplan.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_c2_intimate.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_c2_intimate.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_c3_boardflourish.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_c3_boardflourish.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_c4_layletter.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_c4_layletter.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_c5_celestebreak.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_c5_celestebreak.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_c6_confession.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_c6_confession.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_c7_irischoice.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_c7_irischoice.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_c8_dinner.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_c8_dinner.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/E3_c9_sealmacro.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "E3_c9_sealmacro.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/THE_BRASS_PROMISE_EP1_1.mp4",
+    "ok": false,
+    "reasons": [
+     "static_or_frozen_video_detected"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 119.583333,
+    "duration_error_ratio": 0.0034722250000000323,
+    "duration_ok": true,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": false,
+    "freeze_ratio": 0.06689895489031068,
+    "freeze_longest_s": 4.20833,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 119.583333
+    },
+    "artifact_id": null,
+    "filename": "THE_BRASS_PROMISE_EP1_1.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/THE_BRASS_PROMISE_EP2_2.mp4",
+    "ok": false,
+    "reasons": [
+     "static_or_frozen_video_detected"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 119.583333,
+    "duration_error_ratio": 0.0034722250000000323,
+    "duration_ok": true,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": false,
+    "freeze_ratio": 0.06376306637982737,
+    "freeze_longest_s": 3.83333,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 119.583333
+    },
+    "artifact_id": null,
+    "filename": "THE_BRASS_PROMISE_EP2_2.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/THE_BRASS_PROMISE_EP3_3.mp4",
+    "ok": false,
+    "reasons": [
+     "static_or_frozen_video_detected"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 119.833333,
+    "duration_error_ratio": 0.0013888916666666992,
+    "duration_ok": true,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": false,
+    "freeze_ratio": 0.06363004190161348,
+    "freeze_longest_s": 3.83333,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 119.833333
+    },
+    "artifact_id": null,
+    "filename": "THE_BRASS_PROMISE_EP3_3.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_131644_af70be9c.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_131644_af70be9c.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_132414_8d966929.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_132414_8d966929.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_132638_9b8505e4.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_132638_9b8505e4.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_132927_edf0b34e.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_132927_edf0b34e.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_133147_cf67052b.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_133147_cf67052b.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_133330_9ba928c0.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_133330_9ba928c0.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_133604_aa884646.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_133604_aa884646.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_133827_cdf4ea3c.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_133827_cdf4ea3c.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_134327_38697dd3.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_134327_38697dd3.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_134611_c95e2fd2.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_134611_c95e2fd2.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_134853_5de4ebc9.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_134853_5de4ebc9.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_135105_93255ed8.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_135105_93255ed8.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_135409_30686c64.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_135409_30686c64.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_135628_d843944a.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_135628_d843944a.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_135842_e7f51b94.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_135842_e7f51b94.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_140119_3b94aa2c.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_140119_3b94aa2c.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_140400_80c3683a.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_140400_80c3683a.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_140641_51b4e7c9.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_140641_51b4e7c9.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_141337_47c51660.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_141337_47c51660.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_141520_9d3b1549.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_141520_9d3b1549.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_141704_eff37c91.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_141704_eff37c91.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_141852_0122b9eb.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_141852_0122b9eb.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_142101_de84829e.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_142101_de84829e.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_142320_4913fd7b.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_142320_4913fd7b.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_142503_b8094860.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_142503_b8094860.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_142802_340b44a7.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_142802_340b44a7.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_143016_8128f03e.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_143016_8128f03e.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_143237_7f979804.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_143237_7f979804.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_143725_3a5eaea2.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_143725_3a5eaea2.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_143910_da9a9bd7.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_143910_da9a9bd7.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_144053_d3f4afb3.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_144053_d3f4afb3.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_144237_95d5d1e0.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_144237_95d5d1e0.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_144530_c0123fd6.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_144530_c0123fd6.mp4",
+    "source_kind": "native_video_generation"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_144743_fffd26ae.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 120.0,
+    "actual_duration_s": 6.041667,
+    "duration_error_ratio": 0.949652775,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 6.041667
+    },
+    "artifact_id": null,
+    "filename": "openrouter_20260821_144743_fffd26ae.mp4",
+    "source_kind": "native_video_generation"
+   }
+  ],
+  "generated_video_coverage": {
+   "source": "native_video_generation_artifacts",
+   "generated_video_clip_count": 44,
+   "generated_video_duration_s": 265.8333479999999,
+   "generated_video_clips": [
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_124012_db227c22.mp4",
+     "filename": "openrouter_20260821_124012_db227c22.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_124208_286e6e07.mp4",
+     "filename": "openrouter_20260821_124208_286e6e07.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_124551_fc56e332.mp4",
+     "filename": "openrouter_20260821_124551_fc56e332.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_124734_3a0067ee.mp4",
+     "filename": "openrouter_20260821_124734_3a0067ee.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_124949_1927789d.mp4",
+     "filename": "openrouter_20260821_124949_1927789d.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_125203_ac69e759.mp4",
+     "filename": "openrouter_20260821_125203_ac69e759.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_125428_b748e0d0.mp4",
+     "filename": "openrouter_20260821_125428_b748e0d0.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_125641_2b7b0419.mp4",
+     "filename": "openrouter_20260821_125641_2b7b0419.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_125855_d83f9331.mp4",
+     "filename": "openrouter_20260821_125855_d83f9331.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_130041_c3eccb78.mp4",
+     "filename": "openrouter_20260821_130041_c3eccb78.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_131644_af70be9c.mp4",
+     "filename": "openrouter_20260821_131644_af70be9c.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_132414_8d966929.mp4",
+     "filename": "openrouter_20260821_132414_8d966929.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_132638_9b8505e4.mp4",
+     "filename": "openrouter_20260821_132638_9b8505e4.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_132927_edf0b34e.mp4",
+     "filename": "openrouter_20260821_132927_edf0b34e.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_133147_cf67052b.mp4",
+     "filename": "openrouter_20260821_133147_cf67052b.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_133330_9ba928c0.mp4",
+     "filename": "openrouter_20260821_133330_9ba928c0.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_133604_aa884646.mp4",
+     "filename": "openrouter_20260821_133604_aa884646.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_133827_cdf4ea3c.mp4",
+     "filename": "openrouter_20260821_133827_cdf4ea3c.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_134327_38697dd3.mp4",
+     "filename": "openrouter_20260821_134327_38697dd3.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_134611_c95e2fd2.mp4",
+     "filename": "openrouter_20260821_134611_c95e2fd2.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_134853_5de4ebc9.mp4",
+     "filename": "openrouter_20260821_134853_5de4ebc9.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_135105_93255ed8.mp4",
+     "filename": "openrouter_20260821_135105_93255ed8.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_135409_30686c64.mp4",
+     "filename": "openrouter_20260821_135409_30686c64.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_135628_d843944a.mp4",
+     "filename": "openrouter_20260821_135628_d843944a.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_135842_e7f51b94.mp4",
+     "filename": "openrouter_20260821_135842_e7f51b94.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_140119_3b94aa2c.mp4",
+     "filename": "openrouter_20260821_140119_3b94aa2c.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_140400_80c3683a.mp4",
+     "filename": "openrouter_20260821_140400_80c3683a.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_140641_51b4e7c9.mp4",
+     "filename": "openrouter_20260821_140641_51b4e7c9.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_141337_47c51660.mp4",
+     "filename": "openrouter_20260821_141337_47c51660.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_141520_9d3b1549.mp4",
+     "filename": "openrouter_20260821_141520_9d3b1549.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_141704_eff37c91.mp4",
+     "filename": "openrouter_20260821_141704_eff37c91.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_141852_0122b9eb.mp4",
+     "filename": "openrouter_20260821_141852_0122b9eb.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_142101_de84829e.mp4",
+     "filename": "openrouter_20260821_142101_de84829e.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_142320_4913fd7b.mp4",
+     "filename": "openrouter_20260821_142320_4913fd7b.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_142503_b8094860.mp4",
+     "filename": "openrouter_20260821_142503_b8094860.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_142802_340b44a7.mp4",
+     "filename": "openrouter_20260821_142802_340b44a7.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_143016_8128f03e.mp4",
+     "filename": "openrouter_20260821_143016_8128f03e.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_143237_7f979804.mp4",
+     "filename": "openrouter_20260821_143237_7f979804.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_143725_3a5eaea2.mp4",
+     "filename": "openrouter_20260821_143725_3a5eaea2.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_143910_da9a9bd7.mp4",
+     "filename": "openrouter_20260821_143910_da9a9bd7.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_144053_d3f4afb3.mp4",
+     "filename": "openrouter_20260821_144053_d3f4afb3.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_144237_95d5d1e0.mp4",
+     "filename": "openrouter_20260821_144237_95d5d1e0.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_144530_c0123fd6.mp4",
+     "filename": "openrouter_20260821_144530_c0123fd6.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    },
+    {
+     "path": "$RUNS_DIR/traces/hd_h022_herm_deepseekv4flash073_08212028/video_execute/_acceptance_media/output/openrouter_20260821_144743_fffd26ae.mp4",
+     "filename": "openrouter_20260821_144743_fffd26ae.mp4",
+     "artifact_id": null,
+     "duration_s": 6.041667,
+     "probe_ok": true,
+     "generation_model": null,
+     "generation_status": null
+    }
+   ]
+  },
+  "assistant_indicates_in_progress": false,
+  "user_visible_summary": "我看到了你生成的视频，自动播放检查结果如下：\n- 用户需求时长：120.0s，允许误差：±10%\n- 累计真实生成动态视频片段：265.83s / 目标下限 108.00s；片段数=44；已达到目标下限，可检查最终成片\n- 视频1：实际时长 3.17s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频2：实际时长 3.17s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频3：实际时长 3.17s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频4：实际时长 21.40s；时长合格=False；黑屏合格=True；运动合格=False；结果=duration_out_of_tolerance, static_or_frozen_video_detected\n- 视频5：实际时长 21.40s；时长合格=False；黑屏合格=True；运动合格=False；结果=duration_out_of_tolerance, static_or_frozen_video_detected\n- 视频6：实际时长 27.48s；时长合格=False；黑屏合格=True；运动合格=False；结果=duration_out_of_tolerance, static_or_frozen_video_detected\n- 视频7：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频8：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频9：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频10：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频11：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频12：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频13：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频14：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频15：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频16：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频17：实际时长 21.38s；时长合格=False；黑屏合格=True；运动合格=False；结果=duration_out_of_tolerance, static_or_frozen_video_detected\n- 视频18：实际时长 21.38s；时长合格=False；黑屏合格=True；运动合格=False；结果=duration_out_of_tolerance, static_or_frozen_video_detected\n- 视频19：实际时长 27.46s；时长合格=False；黑屏合格=True；运动合格=False；结果=duration_out_of_tolerance, static_or_frozen_video_detected\n- 视频20：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频21：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频22：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频23：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频24：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频25：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频26：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频27：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频28：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频29：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频30：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频31：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频32：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频33：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频34：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频35：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频36：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频37：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频38：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频39：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频40：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频41：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频42：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频43：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频44：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频45：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频46：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频47：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频48：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频49：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频50：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频51：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频52：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频53：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频54：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频55：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频56：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频57：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频58：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频59：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频60：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频61：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频62：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频63：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频64：实际时长 119.58s；时长合格=True；黑屏合格=True；运动合格=False；结果=static_or_frozen_video_detected\n- 视频65：实际时长 119.58s；时长合格=True；黑屏合格=True；运动合格=False；结果=static_or_frozen_video_detected\n- 视频66：实际时长 119.83s；时长合格=True；黑屏合格=True；运动合格=False；结果=static_or_frozen_video_detected\n- 视频67：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频68：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频69：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频70：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频71：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频72：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频73：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频74：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频75：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频76：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频77：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频78：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频79：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频80：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频81：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频82：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频83：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频84：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频85：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频86：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频87：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频88：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频89：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频90：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频91：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频92：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频93：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频94：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频95：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频96：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频97：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频98：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频99：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频100：实际时长 6.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n结论：视频不符合我的原始需求。"
+ },
+ "workspaceBytes": 328375879
+}

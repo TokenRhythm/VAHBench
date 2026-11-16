@@ -1,0 +1,55 @@
+# Everything the evaluator needs that is not "which data, where to write, how
+# thorough". Those three stay on the command line; the rest lives here so that a
+# run is described by a file you can archive next to its report, rather than by a
+# command line nobody wrote down.
+#
+# Override any single value for one run with an environment variable, e.g.
+#   VAB_EVAL_JOBS=4 python run.py --data data
+
+# Original measurement-module selection. Coverage records unavailable evidence.
+# spec: delivered media specifications and source timing
+# artifact: frozen/blank/flat frames and join artifacts
+# visual: identity consistency and repeated footage
+# physical: physical contact/penetration evidence
+# av: audio clipping and dynamic range
+# seam: cut continuity
+modules: [spec, artifact, visual, physical, av, seam]
+
+# When one of the paper's original detectors is not installed under detectors/
+# (or VAB_EVAL_DETECTOR_ROOT), use the bundled reference reimplementation for
+# that module. It is a different instrument: it never makes a run "full", it
+# needs --allow-partial, and its numbers are not comparable with the paper's.
+# There is none for `physical`; reference `visual` measures repeats only (no
+# face identity) and reference `av` measures clipping only (no dynamic range).
+reference_detectors: true
+
+# Torch device for modules that use a model. CPU is the reference configuration.
+device: cpu
+
+# Scoring thresholds. Kept in its own file because its hash is archived with
+# every report -- changing it changes the benchmark version.
+cut_points: config/thresholds.yaml
+
+# Parallel runs. Each run spawns per-module subprocesses with their own venvs,
+# so this multiplies memory, not just CPU.
+jobs: 1
+
+# Trajectory fact extraction. The deterministic extractors always run; the model
+# only fills what they could not reach.
+lm:
+  provider: openrouter
+  # The extraction model is part of the benchmark configuration. Record any
+  # change with results; a provider model ID is not an immutable weight hash.
+  model: z-ai/glm-5.3
+  max_chars: 120000
+  # Output budget, shared by reasoning and answer tokens. Too small and the
+  # model returns an empty string that looks like an empty finding.
+  max_tokens: 32768
+  # null uses the provider's native variable (e.g. OPENROUTER_API_KEY).
+  # Set a custom variable name here, never the secret itself.
+  api_key_env: null
+  # Optional path to a file holding the key instead of an environment variable.
+  api_key_file: null
+
+# Speech recognition model for the av module's transcript checks.
+asr_model: base

@@ -1,0 +1,85 @@
+# Every free number in the score, in one file whose sha256 is copied into
+# every report. Change a value here and you have changed the benchmark version.
+#
+#   S = 100 * C * Q^(1 - process_weight) * P^process_weight
+#
+# Nothing below is a hand weight between rubric lines: siblings in the tree
+# are equal by construction (SCORING_SYSTEM.md B.3). What remains is the
+# mapping from a continuous measurement to [0, 1], the geometric-mean floor,
+# the completeness tolerance, and the coverage gate.
+
+# r = observed deviation / that same quantity's own noise floor. r ~ 1.0
+# means everything observed is measurement error, so the zero point is built
+# in and the band is readable before any calibration set exists.
+version: 2026-09-26-ranking-v15-cfloor2
+
+noise_ratio:
+  clean: 1.5      # r <= 1.5  -> 1.0 ; linear down to 0.0 at suspect
+  suspect: 3.0
+
+# Statistical rates where some non-zero baseline is expected: agent-caused
+# failed calls over calls, flagged contacts over evaluated contacts, bad
+# seams over seams.
+defect_rate:
+  clean: 0.05
+  suspect: 0.20
+
+# Rates where any visible occurrence is a defect: black frames, flat frames,
+# frozen runs. 0.002 is about three frames of a 1440-frame episode -- room
+# for an encoder artifact, nothing more.
+hard_defect_rate:
+  clean: 0.002
+  suspect: 0.01
+
+# Q = geometric mean of the three quality dimensions, each floored here so a
+# single coarse zero cannot annihilate the product (HDI practice).
+epsilon: 0.05
+# Also the established C minimum when video generation or actual footage
+# is evidenced. Raw completeness measurements remain available separately.
+
+completeness:
+  # Absolute duration tolerance in seconds (the spec module's own default).
+  # Requested clip length does not enlarge this tolerance.
+  tolerance_s: 2.0
+  # The three duration bands, on the relative shortfall e = 1 - Jaccard
+  # (genuine seconds against the target, so padding raises e and a plain
+  # short delivery makes e the ordinary duration error):
+  #   e <= band_pass                 1.0     on spec
+  #   band_pass < e <= band_fail     linear 1.0 -> band_fail_score
+  #   e >  band_fail                 linear band_fail_score -> 0 at e = 1
+  # The pass band uses band_pass and tolerance_s/target, capped below the
+  # fail boundary. Detected padding does not receive a full-credit exemption.
+  band_pass: 0.05
+  band_fail: 0.20
+  band_fail_score: 0.5
+  # The assembly point, subtracted per episode when the run produced that
+  # episode's material but never cut it together. Small on purpose: generating
+  # the footage is the work, concatenating it is the last step, and the layer
+  # must not become "did you run ffmpeg" -- a six-fold loop of one clip scores
+  # 0.06 and assembling it perfectly does not change that.
+  assembly_deduction: 0.1
+  # Deductions above this share of delivered seconds is DEGENERATE.
+  tier_degenerate_deduction_frac: 0.5
+
+# Exponent of P. 1/4 because Q is itself three equal dimensions and the
+# trajectory is admitted as a fourth equal facet; the sensitivity sweep over
+# [0, 0.5] is the defence, not the value.
+process_weight: 0.25
+
+coverage:
+  # Unsupported quality sources are uniformly excluded by capabilities.py.
+  # ABSTAIN is excluded uniformly; missing evidence lowers coverage and
+  # marks scores as conditional. It is never converted into a defect.
+  # A dimension with no measured sources still cannot produce Q or S.
+  # This is an evidence-quality flag, not a score gate. Missing observations
+  # remain explicit; observed facet weights are renormalised for the total.
+  min_for_total: 0.60
+
+# Flip to "calibrated" only once the bands above have been fitted against
+# human labels and a Spearman has been reported. Until then every report warns.
+subtitle_alignment:
+  tolerance_s: 0.5
+  min_text_match: 0.8
+  max_cue_s: 7.0
+
+status: uncalibrated

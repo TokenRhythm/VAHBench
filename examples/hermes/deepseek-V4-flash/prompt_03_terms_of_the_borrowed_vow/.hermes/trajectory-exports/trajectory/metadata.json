@@ -1,0 +1,54 @@
+{
+ "traceSchema": "hermes-trajectory",
+ "schemaVersion": 1,
+ "generatedAt": "2026-08-21T15:09:50.700598",
+ "traceId": "f3627a87-ef0b-4f65-87f6-d2c8d65bb427",
+ "sessionId": "f3627a87-ef0b-4f65-87f6-d2c8d65bb427",
+ "sessionKey": "hermes:api_server:video5cat_002",
+ "harness": {
+  "type": "hermes",
+  "name": "Hermes",
+  "image": "router-hermes:0.2.1",
+  "transport": "native_gateway",
+  "os": {
+   "platform": "linux",
+   "label": "docker router-hermes:0.2.1"
+  },
+  "workspaceDir": "$WORKSPACE_DIR",
+  "homeDir": "$HERMES_HOME"
+ },
+ "model": {
+  "provider": "openrouter",
+  "name": "deepseek/deepseek-v4-flash-0731",
+  "declaredName": "deepseek/deepseek-v4-flash-0731",
+  "note": null,
+  "api": "openai-completions"
+ },
+ "media": {
+  "videoModel": "bytedance/seedance-2.0-mini",
+  "videoProvider": "openrouter",
+  "imageModel": "google/gemini-3-pro-image-preview",
+  "toolCalls": {
+   "video_generate": {
+    "calls": 52,
+    "succeeded": 44,
+    "servedModels": [
+     "bytedance/seedance-2.0-mini"
+    ]
+   },
+   "image_generate": {
+    "calls": 75,
+    "succeeded": 75,
+    "servedModels": [
+     "google/gemini-3-pro-image-preview"
+    ]
+   }
+  }
+ },
+ "counts": {
+  "requestDumps": 148,
+  "responseDumps": 148,
+  "events": 533,
+  "workspaceFiles": 149
+ }
+}

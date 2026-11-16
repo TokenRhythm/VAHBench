@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vahbench-eval"
+version = "0.1.0.dev0"
+description = "Evidence-based evaluation of video-producing agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "VAHBench contributors"}]
+dependencies = ["PyYAML>=6.0,<7"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+]
+
+[project.optional-dependencies]
+# The bundled reference detectors (not the paper's): NumPy plus ffmpeg/ffprobe on PATH.
+reference = ["numpy>=1.24"]
+asr = ["openai-whisper"]
+
+[project.scripts]
+vahbench = "run:main"
+vahbench-scan-secrets = "shared.secrets:main"
+
+[tool.setuptools]
+py-modules = ["run"]
+include-package-data = false
+packages = ["shared", "stage1_inputs", "stage2_delivery", "stage3_evidence", "stage3_evidence.workers", "stage4_checks", "stage4_checks.process", "stage4_checks.video", "stage5_scoring", "stage5_scoring.process", "stage5_scoring.video", "stage5_scoring.video.quality", "vahbench_config", "reference_detectors", "reference_detectors.vahref", "reference_detectors.spec_checks", "reference_detectors.spec_checks.speccheck", "reference_detectors.artifact_checks", "reference_detectors.visual_consistency", "reference_detectors.visual_consistency.vcheck", "reference_detectors.av_consistency", "reference_detectors.seam_checks"]
+
+[tool.setuptools.package-dir]
+vahbench_config = "config"
+
+[tool.setuptools.package-data]
+vahbench_config = ["*.yaml"]
+stage1_inputs = ["schemas/*.json"]

@@ -1,0 +1,95 @@
+{
+ "traceSchema": "opensquilla-trajectory",
+ "schemaVersion": 1,
+ "generatedAt": "2026-08-24T11:45:23.957399",
+ "traceId": "ade23e2b26a930108bd32a08d692ddc4",
+ "sessionId": "ade23e2b26a930108bd32a08d692ddc4",
+ "sessionKey": "opensquilla:cli:video5cat_001",
+ "harness": {
+  "type": "opensquilla",
+  "name": "OpenSquilla",
+  "image": "router-osq:0.5.0rc2-sysskill",
+  "transport": "docker_cli",
+  "os": {
+   "platform": "linux",
+   "label": "docker router-osq:0.5.0rc2-sysskill"
+  },
+  "workspaceDir": "$WORKSPACE_DIR",
+  "videoCapability": {
+   "nativeTool": false,
+   "note": "Bundled short-drama / video-generation skills and the video_generate builtin were removed from the image. The only video affordance is the unified system skill 'video-generation', which documents the OpenRouter videos API and leaves the call to the agent.",
+   "systemSkill": "video-generation"
+  }
+ },
+ "model": {
+  "provider": "openrouter",
+  "name": "deepseek/deepseek-v4-flash-0731",
+  "declaredName": "deepseek/deepseek-v4-flash-0731",
+  "api": "openai-completions"
+ },
+ "media": {
+  "nativeVideoTool": null,
+  "videosApiMentions": 1076,
+  "toolCalls": {
+   "skill_view": {
+    "calls": 1,
+    "errors": 0
+   },
+   "exec_command": {
+    "calls": 22,
+    "errors": 0
+   },
+   "image_generate": {
+    "calls": 16,
+    "errors": 0
+   },
+   "web_fetch": {
+    "calls": 1,
+    "errors": 0
+   },
+   "write_file": {
+    "calls": 6,
+    "errors": 0
+   },
+   "background_process": {
+    "calls": 2,
+    "errors": 0
+   },
+   "process": {
+    "calls": 3,
+    "errors": 0
+   },
+   "music_generate": {
+    "calls": 1,
+    "errors": 0
+   },
+   "execute_code": {
+    "calls": 1,
+    "errors": 0
+   },
+   "image": {
+    "calls": 2,
+    "errors": 0
+   },
+   "publish_artifact": {
+    "calls": 4,
+    "errors": 0
+   }
+  }
+ },
+ "contextCapture": {
+  "captured": true,
+  "source": "turn_call_log",
+  "capture_mode": "turn_call_log",
+  "n_llm_calls": 39,
+  "n_llm_requests": 39,
+  "n_llm_responses": 39,
+  "messages_bytes": 5339644,
+  "input_messages_stored": true,
+  "native_input_messages_captured": true,
+  "llm_calls_stored": true,
+  "native_tools": true,
+  "tools_observed": true,
+  "system_prompt_captured": true
+ }
+}

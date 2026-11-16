@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Benchmark preprocessing audit 1.0",
+  "type": "object",
+  "required": ["version", "schema_version", "policy", "policy_sha256", "implementation_sha256", "input_chars", "output_chars", "files", "duplicate_sources", "read_errors", "source_inventory_complete", "history_definitions", "context_definitions", "rule_hits", "validation"],
+  "properties": {
+    "version": {"const": "checklist-input-v3"},
+    "schema_version": {"const": "preprocessing-audit-1.0"},
+    "policy": {"type": "object"},
+    "policy_sha256": {"$ref": "#/$defs/hash"},
+    "implementation_sha256": {"$ref": "#/$defs/hash"},
+    "input_chars": {"$ref": "#/$defs/count"},
+    "output_chars": {"$ref": "#/$defs/count"},
+    "source_inventory_complete": {"type": "boolean"},
+    "files": {"type": "array", "items": {"$ref": "#/$defs/file"}},
+    "duplicate_sources": {"type": "object", "additionalProperties": {"type": "string"}},
+    "read_errors": {"type": "array", "items": {"type": "object", "required": ["source", "error"], "properties": {"source": {"type": "string"}, "error": {"type": "string"}}}},
+    "history_definitions": {"type": "array", "items": {"$ref": "#/$defs/definition"}},
+    "context_definitions": {"type": "array", "items": {"$ref": "#/$defs/definition"}},
+    "rule_hits": {"$ref": "#/$defs/ruleHits"},
+    "validation": {
+      "type": "object", "required": ["status", "checks", "errors"],
+      "properties": {
+        "status": {"enum": ["passed", "failed"]},
+        "checks": {"type": "array", "items": {"type": "object", "required": ["name", "passed"], "properties": {"name": {"type": "string"}, "passed": {"type": "boolean"}}}},
+        "errors": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "count": {"type": "integer", "minimum": 0},
+    "lines": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+    "ruleHits": {"type": "object", "required": ["P001", "P002", "P003", "P004", "P005", "P006", "P007"], "patternProperties": {"^P00[1-7]$": {"$ref": "#/$defs/count"}}, "additionalProperties": false},
+    "definition": {
+      "type": "object", "required": ["source", "location", "sha256"],
+      "properties": {"id": {"type": "string"}, "source": {"type": "string"}, "location": {"type": "string"}, "sha256": {"$ref": "#/$defs/hash"}}
+    },
+    "file": {
+      "type": "object",
+      "required": ["source", "raw_sha256", "raw_bytes", "decoding", "adapter", "input_lines", "input_chars", "output_chars", "input_sha256", "output_sha256", "emitted", "removed_progress", "output_lines", "unparsed_lines", "media", "replayed_messages", "repeated_context", "credential_redactions", "rule_hits"],
+      "properties": {
+        "source": {"type": "string", "minLength": 1},
+        "raw_sha256": {"$ref": "#/$defs/hash"},
+        "raw_bytes": {"$ref": "#/$defs/count"},
+        "decoding": {"enum": ["utf-8", "utf-8-with-replacement"]},
+        "adapter": {"enum": ["lines", "json_document"]},
+        "input_lines": {"$ref": "#/$defs/count"},
+        "input_chars": {"$ref": "#/$defs/count"},
+        "output_chars": {"$ref": "#/$defs/count"},
+        "input_sha256": {"$ref": "#/$defs/hash"},
+        "output_sha256": {"$ref": "#/$defs/hash"},
+        "emitted": {"type": "boolean"},
+        "duplicate_of": {"type": "string"},
+        "removed_progress": {"$ref": "#/$defs/lines"},
+        "output_lines": {"$ref": "#/$defs/lines"},
+        "unparsed_lines": {"$ref": "#/$defs/lines"},
+        "media": {"type": "array", "items": {"type": "object", "required": ["location", "chars", "sha256"], "properties": {"location": {"type": "string"}, "chars": {"$ref": "#/$defs/count"}, "sha256": {"$ref": "#/$defs/hash"}}}},
+        "replayed_messages": {"$ref": "#/$defs/references"},
+        "repeated_context": {"$ref": "#/$defs/references"},
+        "credential_redactions": {"type": "array", "items": {"type": "object", "required": ["location"], "properties": {"location": {"type": "string"}}, "additionalProperties": false}},
+        "rule_hits": {"$ref": "#/$defs/ruleHits"}
+      },
+      "additionalProperties": false
+    },
+    "references": {
+      "type": "array", "items": {"type": "object", "required": ["location", "first", "chars"],
+        "properties": {"location": {"type": "string"}, "first": {"$ref": "#/$defs/definition"}, "chars": {"$ref": "#/$defs/count"}}}
+    }
+  }
+}

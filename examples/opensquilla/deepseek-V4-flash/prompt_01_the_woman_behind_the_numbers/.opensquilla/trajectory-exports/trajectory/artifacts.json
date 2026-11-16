@@ -1,0 +1,5166 @@
+{
+ "traceSchema": "opensquilla-trajectory",
+ "schemaVersion": 1,
+ "generatedAt": "2026-08-24T11:45:23.957399",
+ "traceId": "ade23e2b26a930108bd32a08d692ddc4",
+ "sessionId": "ade23e2b26a930108bd32a08d692ddc4",
+ "sessionKey": "opensquilla:cli:video5cat_001",
+ "finalStatus": {
+  "status": "completed",
+  "reason": "hard limit: completed",
+  "terminal_reason": "user_task_done",
+  "judged_by": "builtin_rule",
+  "judge_detail": null
+ },
+ "totals": {
+  "n_dialog_turns": 2,
+  "n_llm_calls": 40,
+  "n_tool_calls": 59,
+  "n_tool_results": 59,
+  "prompt_tokens": 1773555,
+  "completion_tokens": 31658,
+  "total_tokens": 1805213,
+  "cost_usd": 0.0,
+  "elapsed_seconds": 2003.13
+ },
+ "mediaAcceptance": {
+  "checked": true,
+  "acceptance_ok": false,
+  "requested_duration_s": 125.0,
+  "video_count": 21,
+  "videos": [
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep1_s1.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep1_s1.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep1_s2.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep1_s2.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep1_s3.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep1_s3.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep1_s4.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep1_s4.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep1_s5.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep1_s5.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep2_s1.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep2_s1.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep2_s2.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep2_s2.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep2_s3.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep2_s3.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep2_s4.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep2_s4.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep2_s5.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep2_s5.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep3_s1.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep3_s1.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep3_s2.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep3_s2.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep3_s3.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep3_s3.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep3_s4.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep3_s4.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/ep3_s5.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 12.041667,
+    "duration_error_ratio": 0.903666664,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 12.041667
+    },
+    "artifact_id": null,
+    "filename": "ep3_s5.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/episode1_concat.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 60.0,
+    "duration_error_ratio": 0.52,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 60.0
+    },
+    "artifact_id": null,
+    "filename": "episode1_concat.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/episode2_concat.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 60.0,
+    "duration_error_ratio": 0.52,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 60.0
+    },
+    "artifact_id": null,
+    "filename": "episode2_concat.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/episode3_concat.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 60.0,
+    "duration_error_ratio": 0.52,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.022916666666666665,
+    "freeze_longest_s": 1.375,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "24/1",
+     "duration_s": 60.0
+    },
+    "artifact_id": null,
+    "filename": "episode3_concat.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/episode1.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 60.0,
+    "duration_error_ratio": 0.52,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "30/1",
+     "duration_s": 60.0
+    },
+    "artifact_id": null,
+    "filename": "episode1.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/episode2.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 60.0,
+    "duration_error_ratio": 0.52,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.0,
+    "freeze_longest_s": null,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "30/1",
+     "duration_s": 60.0
+    },
+    "artifact_id": null,
+    "filename": "episode2.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   },
+   {
+    "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_acceptance_media/output/episode3.mp4",
+    "ok": false,
+    "reasons": [
+     "duration_out_of_tolerance"
+    ],
+    "requested_duration_s": 125.0,
+    "actual_duration_s": 60.0,
+    "duration_error_ratio": 0.52,
+    "duration_ok": false,
+    "black_screen_ok": true,
+    "black_screen_ratio": 0.0,
+    "black_screen_longest_s": null,
+    "motion_ok": true,
+    "freeze_ratio": 0.02333333333333333,
+    "freeze_longest_s": 1.4,
+    "playable_ok": true,
+    "probe": {
+     "ok": true,
+     "codec": "h264",
+     "width": 720,
+     "height": 1280,
+     "fps": "30/1",
+     "duration_s": 60.0
+    },
+    "artifact_id": null,
+    "filename": "episode3.mp4",
+    "source_kind": "workspace_or_final_artifact"
+   }
+  ],
+  "generated_video_coverage": {
+   "source": "native_video_generation_artifacts",
+   "generated_video_clip_count": 0,
+   "generated_video_duration_s": 0.0,
+   "generated_video_clips": []
+  },
+  "assistant_indicates_in_progress": false,
+  "user_visible_summary": "我看到了你生成的视频，自动播放检查结果如下：\n- 用户需求时长：125.0s，允许误差：±10%\n- 累计真实生成动态视频片段：0.00s / 目标下限 112.50s；片段数=0；仍需补足约 112.50s 并合成为最终成片\n- 视频1：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频2：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频3：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频4：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频5：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频6：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频7：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频8：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频9：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频10：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频11：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频12：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频13：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频14：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频15：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频16：实际时长 60.00s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频17：实际时长 60.00s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频18：实际时长 60.00s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频19：实际时长 60.00s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频20：实际时长 60.00s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频21：实际时长 60.00s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n结论：视频不符合我的原始需求。"
+ },
+ "userVisibleMediaQuality": {
+  "acceptance_ok": false,
+  "summary": "我看到了你生成的视频，自动播放检查结果如下：\n- 用户需求时长：125.0s，允许误差：±10%\n- 累计真实生成动态视频片段：0.00s / 目标下限 112.50s；片段数=0；仍需补足约 112.50s 并合成为最终成片\n- 视频1：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频2：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频3：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频4：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频5：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频6：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频7：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频8：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频9：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频10：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频11：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频12：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频13：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频14：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频15：实际时长 12.04s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频16：实际时长 60.00s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频17：实际时长 60.00s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频18：实际时长 60.00s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频19：实际时长 60.00s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频20：实际时长 60.00s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n- 视频21：实际时长 60.00s；时长合格=False；黑屏合格=True；运动合格=True；结果=duration_out_of_tolerance\n结论：视频不符合我的原始需求。"
+ },
+ "mediaRefs": [
+  {
+   "kind": "attachment",
+   "content_address": "aa8cc9bc2d01d80d9a90c0bfd601323e5945e82a010e53b0e88b80200466652a",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/aa8cc9bc2d01d80d9a90c0bfd601323e5945e82a010e53b0e88b80200466652a",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 204,
+    "mime": "application/json",
+    "filename": "workspace-state.json",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "c65e9ae77f824ac0c1eb320031d511338d316040eba998902054a0a544302c8e",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/c65e9ae77f824ac0c1eb320031d511338d316040eba998902054a0a544302c8e",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 1605,
+    "mime": "text/markdown",
+    "filename": "AGENTS.md",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "ccccf2004a053daab5160f99038c0209541e4f346ca2aa25560c4f04517af8be",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/ccccf2004a053daab5160f99038c0209541e4f346ca2aa25560c4f04517af8be",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 1069,
+    "mime": "text/markdown",
+    "filename": "BOOTSTRAP.md",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "368b59816226ea418bf80c3b16b1d027fa4ddffe3fa08b1780f7db80514f3bbb",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/368b59816226ea418bf80c3b16b1d027fa4ddffe3fa08b1780f7db80514f3bbb",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 435,
+    "mime": "text/markdown",
+    "filename": "HEARTBEAT.md",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "74b92f78e825c978ed6b49e490347661fbaa346468546d009d23fd7303c8027a",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/74b92f78e825c978ed6b49e490347661fbaa346468546d009d23fd7303c8027a",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 382,
+    "mime": "text/markdown",
+    "filename": "IDENTITY.md",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "931e0bdc4de67a4ee807f3fdb404b8e10e0ad6a4b0f557136357bccfd9fabf1f",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/931e0bdc4de67a4ee807f3fdb404b8e10e0ad6a4b0f557136357bccfd9fabf1f",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 642,
+    "mime": "text/markdown",
+    "filename": "MEMORY.md",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "a0061fa01720975c8810da552e02418b5cd0f6d041279199c1d3062e6587526e",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/a0061fa01720975c8810da552e02418b5cd0f6d041279199c1d3062e6587526e",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 612,
+    "mime": "text/markdown",
+    "filename": "SOUL.md",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "dd0c5514ab7b0016349d18115a5a31b9fb0f96449ec4281824c8cc0780cac573",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/dd0c5514ab7b0016349d18115a5a31b9fb0f96449ec4281824c8cc0780cac573",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 395,
+    "mime": "text/markdown",
+    "filename": "TOOLS.md",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "852a3c481dd07f1644726a5acaf6eeda1b6e1bdd8b1ad7efd8c9d7173153c05f",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/852a3c481dd07f1644726a5acaf6eeda1b6e1bdd8b1ad7efd8c9d7173153c05f",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 326,
+    "mime": "text/markdown",
+    "filename": "USER.md",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 0,
+    "filename": ".migrated",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "cfa38a10cade16793a32bc0d16bec07bd09fe1e00e787ac7d87de334214e0850",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/cfa38a10cade16793a32bc0d16bec07bd09fe1e00e787ac7d87de334214e0850",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 939521,
+    "mime": "image/png",
+    "filename": "cover.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "0a1ec60f70e434bed2a2eb3b880707de14dbfca4e92c15bfdeff093f12a6cb41",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/0a1ec60f70e434bed2a2eb3b880707de14dbfca4e92c15bfdeff093f12a6cb41",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 1046359,
+    "mime": "image/png",
+    "filename": "ep1_s1.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "beeb50436311995d822af65de845dc5ddebac9d8bb62c5f0b7c6603ed5517204",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/beeb50436311995d822af65de845dc5ddebac9d8bb62c5f0b7c6603ed5517204",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 1088740,
+    "mime": "image/png",
+    "filename": "ep1_s2.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "18a001c2dd294bebb51bf971c77487551821c67c21d35d7352aecc581405ce12",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/18a001c2dd294bebb51bf971c77487551821c67c21d35d7352aecc581405ce12",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 1018751,
+    "mime": "image/png",
+    "filename": "ep1_s3.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "4bef31b09300ba0aeb9e8d7289157cbe9499a1c900a14ab98602e821a0f7ec9e",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/4bef31b09300ba0aeb9e8d7289157cbe9499a1c900a14ab98602e821a0f7ec9e",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 1012343,
+    "mime": "image/png",
+    "filename": "ep1_s4.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "1e6a46fd7e1ab6db424f2912b7f3fff84edcd635c2f1d435319ddf8fb678f6f4",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/1e6a46fd7e1ab6db424f2912b7f3fff84edcd635c2f1d435319ddf8fb678f6f4",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 1041769,
+    "mime": "image/png",
+    "filename": "ep1_s5.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "98626b86d217d395bce700d9a5295c30f975e956aefbbcba8a16ee6af611f76d",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/98626b86d217d395bce700d9a5295c30f975e956aefbbcba8a16ee6af611f76d",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 950188,
+    "mime": "image/png",
+    "filename": "ep2_s1.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "cb9bbd785a0084524088a729049b1ef86e094c378da1708f79b246bd213a3c30",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/cb9bbd785a0084524088a729049b1ef86e094c378da1708f79b246bd213a3c30",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 962194,
+    "mime": "image/png",
+    "filename": "ep2_s2.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "654332c73bbdf0cb43777af44b18e65288c6aa4463bd9d2aee9f2ec3251a6fd5",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/654332c73bbdf0cb43777af44b18e65288c6aa4463bd9d2aee9f2ec3251a6fd5",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 1031929,
+    "mime": "image/png",
+    "filename": "ep2_s3.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "cbd9bd350c9e334084643e1bc6ac325b1f61835c8572c18af472bf9d9a086017",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/cbd9bd350c9e334084643e1bc6ac325b1f61835c8572c18af472bf9d9a086017",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 1120470,
+    "mime": "image/png",
+    "filename": "ep2_s4.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "5c1131ecc61024487c3484556428ab57f165d9a87bd2b69e03d5ccb4b0db1f2c",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/5c1131ecc61024487c3484556428ab57f165d9a87bd2b69e03d5ccb4b0db1f2c",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 1046718,
+    "mime": "image/png",
+    "filename": "ep2_s5.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "d4d07ca7f0815a4ffd13766a251f3ff69cc2db28aef4da8065ead2264fa2f286",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/d4d07ca7f0815a4ffd13766a251f3ff69cc2db28aef4da8065ead2264fa2f286",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 965992,
+    "mime": "image/png",
+    "filename": "ep3_s1.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "8c58667f278a9222aef05b691c320c347dbe6d689b1e2929db25ab74b612e957",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/8c58667f278a9222aef05b691c320c347dbe6d689b1e2929db25ab74b612e957",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 938846,
+    "mime": "image/png",
+    "filename": "ep3_s2.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "7b0deb8bce3e1640059c22f012ec3c97f6d80e18cd4d6223fa7fdf3f3bb787c5",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/7b0deb8bce3e1640059c22f012ec3c97f6d80e18cd4d6223fa7fdf3f3bb787c5",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 1028709,
+    "mime": "image/png",
+    "filename": "ep3_s3.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "aa7c34bd58de314ae099ff1678cf4d727e5097bc09220258daf819e714a4f75c",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/aa7c34bd58de314ae099ff1678cf4d727e5097bc09220258daf819e714a4f75c",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 1048836,
+    "mime": "image/png",
+    "filename": "ep3_s4.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "d06a6098ff797e9a11ad829d76be606d52b0af322415c169b5906eea5dacfe5f",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/d06a6098ff797e9a11ad829d76be606d52b0af322415c169b5906eea5dacfe5f",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 981552,
+    "mime": "image/png",
+    "filename": "ep3_s5.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "d76927b849b5b4e80b3084f72515f374d72721b51d633cbb51fb7488b9e8b561",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/d76927b849b5b4e80b3084f72515f374d72721b51d633cbb51fb7488b9e8b561",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 691975,
+    "mime": "image/png",
+    "filename": "ep1_s1.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "a21386b8f5f7a3efaf89730d944e4942747ea41e9345b5bf0ea24341c065610e",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/a21386b8f5f7a3efaf89730d944e4942747ea41e9345b5bf0ea24341c065610e",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 727264,
+    "mime": "image/png",
+    "filename": "ep1_s2.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "5197ae77b346f12bdbd7b2090f34f95d67a6a79dda71cd42fd447f32b32518d8",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/5197ae77b346f12bdbd7b2090f34f95d67a6a79dda71cd42fd447f32b32518d8",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 666472,
+    "mime": "image/png",
+    "filename": "ep1_s3.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "823ae898044bef0394ee50ec8d34cc3083a84cf39034b38c867a1e7b06edeee6",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/823ae898044bef0394ee50ec8d34cc3083a84cf39034b38c867a1e7b06edeee6",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 653119,
+    "mime": "image/png",
+    "filename": "ep1_s4.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "b277a62fe69a30ca196254ac0dddbf77c1bc41f701f1ceedb7a10ec4cb99296a",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/b277a62fe69a30ca196254ac0dddbf77c1bc41f701f1ceedb7a10ec4cb99296a",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 694777,
+    "mime": "image/png",
+    "filename": "ep1_s5.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "ece2716931974625a2aeed37894248548bb29a5ec95f3b03a84d1036b7d96d62",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/ece2716931974625a2aeed37894248548bb29a5ec95f3b03a84d1036b7d96d62",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 623964,
+    "mime": "image/png",
+    "filename": "ep2_s1.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "6cca9c49d62a70c3fa454b99470394a35a5b08d1c83f03c9da8e2cd13ac32c78",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/6cca9c49d62a70c3fa454b99470394a35a5b08d1c83f03c9da8e2cd13ac32c78",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 622502,
+    "mime": "image/png",
+    "filename": "ep2_s2.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "b4c5bdae71f00bede5b3c7e02992cdffe111f0b1d69b2ebbcd4d4db57cfa5ac3",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/b4c5bdae71f00bede5b3c7e02992cdffe111f0b1d69b2ebbcd4d4db57cfa5ac3",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 684070,
+    "mime": "image/png",
+    "filename": "ep2_s3.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "95dfd38a7ade8a8553d8e6c1ba1032fb9d6fd58d26d993e35254c2991c9c4933",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/95dfd38a7ade8a8553d8e6c1ba1032fb9d6fd58d26d993e35254c2991c9c4933",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 739565,
+    "mime": "image/png",
+    "filename": "ep2_s4.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "5d180da8394a82081352928b96d30208139e079422ce0b197814104961cc7d41",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/5d180da8394a82081352928b96d30208139e079422ce0b197814104961cc7d41",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 673345,
+    "mime": "image/png",
+    "filename": "ep2_s5.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "2a23735ec66ecdbe95d1503d09dfd728bff2dd9ec56e769f793c106fd5f8b0eb",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/2a23735ec66ecdbe95d1503d09dfd728bff2dd9ec56e769f793c106fd5f8b0eb",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 650676,
+    "mime": "image/png",
+    "filename": "ep3_s1.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "876f53878535904734797a7b37069fb5081437dd7cc5d67fcb0fad5113adb096",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/876f53878535904734797a7b37069fb5081437dd7cc5d67fcb0fad5113adb096",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 609421,
+    "mime": "image/png",
+    "filename": "ep3_s2.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "52b6c47f3708209580c665f14c2930780e5706109ffeb0de12b51ba2dcf56b7b",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/52b6c47f3708209580c665f14c2930780e5706109ffeb0de12b51ba2dcf56b7b",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 695897,
+    "mime": "image/png",
+    "filename": "ep3_s3.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "6720ff20f37c5603b0df96e003de94df6c1efe512942874b2cd2e974e6c083ef",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/6720ff20f37c5603b0df96e003de94df6c1efe512942874b2cd2e974e6c083ef",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 700732,
+    "mime": "image/png",
+    "filename": "ep3_s4.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "9d3e3d301db602087b6fa12eeb0f7f54c07880a8a019e224c4477c7b6a450644",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/9d3e3d301db602087b6fa12eeb0f7f54c07880a8a019e224c4477c7b6a450644",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 654189,
+    "mime": "image/png",
+    "filename": "ep3_s5.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "6a0c42c103bd3cea4b193bd67005a0ea74fca64d9a9107c088ccf897bb14cfc4",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/6a0c42c103bd3cea4b193bd67005a0ea74fca64d9a9107c088ccf897bb14cfc4",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 864,
+    "mime": "text/plain",
+    "filename": "ep1.srt",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "8f828adbd5a96ce319c0b1d56915f32ee574232a823834781dab37a13f9c0649",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/8f828adbd5a96ce319c0b1d56915f32ee574232a823834781dab37a13f9c0649",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 808,
+    "mime": "text/plain",
+    "filename": "ep2.srt",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "43c4016cd2b8e266f8a283af9b13778a42d140d8073470abfd24d5ed0acd333e",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/43c4016cd2b8e266f8a283af9b13778a42d140d8073470abfd24d5ed0acd333e",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 912,
+    "mime": "text/plain",
+    "filename": "ep3.srt",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "6a0c42c103bd3cea4b193bd67005a0ea74fca64d9a9107c088ccf897bb14cfc4",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/6a0c42c103bd3cea4b193bd67005a0ea74fca64d9a9107c088ccf897bb14cfc4",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 864,
+    "mime": "text/plain",
+    "filename": "episode1.srt",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "8f828adbd5a96ce319c0b1d56915f32ee574232a823834781dab37a13f9c0649",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/8f828adbd5a96ce319c0b1d56915f32ee574232a823834781dab37a13f9c0649",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 808,
+    "mime": "text/plain",
+    "filename": "episode2.srt",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "43c4016cd2b8e266f8a283af9b13778a42d140d8073470abfd24d5ed0acd333e",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/43c4016cd2b8e266f8a283af9b13778a42d140d8073470abfd24d5ed0acd333e",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 912,
+    "mime": "text/plain",
+    "filename": "episode3.srt",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "0f25c55cb6e7adb8c0d0fe31be642216dcd74c979612d8b82304bbe1d8015273",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/0f25c55cb6e7adb8c0d0fe31be642216dcd74c979612d8b82304bbe1d8015273",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 5292117,
+    "mime": "video/mp4",
+    "filename": "ep1_s1.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "358285897ae3790ec7189f9e7e13ee332d59193fa29e1e9cf58aa756963f58fb",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/358285897ae3790ec7189f9e7e13ee332d59193fa29e1e9cf58aa756963f58fb",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 6351082,
+    "mime": "video/mp4",
+    "filename": "ep1_s2.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "b07591cfb800624bd0b534919efb11bd3a7af7a074215771ff35a2227b7ff917",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/b07591cfb800624bd0b534919efb11bd3a7af7a074215771ff35a2227b7ff917",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 6086032,
+    "mime": "video/mp4",
+    "filename": "ep1_s3.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "daa4ff8fd5baa3feb4ad133659e7cdc497897bf287a0e4fd306eca4ff2df85fb",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/daa4ff8fd5baa3feb4ad133659e7cdc497897bf287a0e4fd306eca4ff2df85fb",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 5479752,
+    "mime": "video/mp4",
+    "filename": "ep1_s4.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "55d4902d17dc5c49b0964832f952e570e5834be2f8a39e196f902e335b2363de",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/55d4902d17dc5c49b0964832f952e570e5834be2f8a39e196f902e335b2363de",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 6451480,
+    "mime": "video/mp4",
+    "filename": "ep1_s5.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "779eabf8c3ac9deb60d5cbd832172c95800b6bf150031f02d8ad54a7fcf83ff3",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/779eabf8c3ac9deb60d5cbd832172c95800b6bf150031f02d8ad54a7fcf83ff3",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 6899448,
+    "mime": "video/mp4",
+    "filename": "ep2_s1.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "3758387a61fb3effa4a3a341396450ba1191fa2a24f5c241bb749381150b3930",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/3758387a61fb3effa4a3a341396450ba1191fa2a24f5c241bb749381150b3930",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 6526283,
+    "mime": "video/mp4",
+    "filename": "ep2_s2.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "0f48e802fab9565c3ee74091c0dde44d9fbdb5d0a669b6d9fdaf8ff11a38db11",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/0f48e802fab9565c3ee74091c0dde44d9fbdb5d0a669b6d9fdaf8ff11a38db11",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 5303664,
+    "mime": "video/mp4",
+    "filename": "ep2_s3.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "d8e60e29b2e7fb74469c80d14a9aecef2775e17861cd7f93ad4de26a4f0341ed",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/d8e60e29b2e7fb74469c80d14a9aecef2775e17861cd7f93ad4de26a4f0341ed",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 6256155,
+    "mime": "video/mp4",
+    "filename": "ep2_s4.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "0948ef379718b7c58758a894f819424a11d23b36d10c5cd1e3775ab354181529",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/0948ef379718b7c58758a894f819424a11d23b36d10c5cd1e3775ab354181529",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 5715517,
+    "mime": "video/mp4",
+    "filename": "ep2_s5.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "d195aa65c63b6cb922d9700486f1dc8272932f3b867b6e121481d82b85b558cd",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/d195aa65c63b6cb922d9700486f1dc8272932f3b867b6e121481d82b85b558cd",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 7451265,
+    "mime": "video/mp4",
+    "filename": "ep3_s1.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "069a660669d69aa74278ac8074710a55c97f244ea1e8a7d7575402819686415c",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/069a660669d69aa74278ac8074710a55c97f244ea1e8a7d7575402819686415c",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 5800232,
+    "mime": "video/mp4",
+    "filename": "ep3_s2.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "5ad957aff3ce7089d3fe204951eab93d73940bf73cb4e0902ed1179530406264",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/5ad957aff3ce7089d3fe204951eab93d73940bf73cb4e0902ed1179530406264",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 5868342,
+    "mime": "video/mp4",
+    "filename": "ep3_s3.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "a902874e621ae591b6e963664fada7b75b865769682627823ac30a6ee945cfed",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/a902874e621ae591b6e963664fada7b75b865769682627823ac30a6ee945cfed",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 6238547,
+    "mime": "video/mp4",
+    "filename": "ep3_s4.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "a00aa5823889b07e8f43a7aefa9a178e0fafcf0c87ede3c6aa24702d87dd45eb",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/a00aa5823889b07e8f43a7aefa9a178e0fafcf0c87ede3c6aa24702d87dd45eb",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 6360015,
+    "mime": "video/mp4",
+    "filename": "ep3_s5.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "7e71cbff2f6d98b56019696e0c1ebff925f77af14e48795a83ca58691db868f5",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/7e71cbff2f6d98b56019696e0c1ebff925f77af14e48795a83ca58691db868f5",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 12057418,
+    "mime": "video/mp4",
+    "filename": "episode1_concat.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "5a83aeb406377715b82f785811ac9ffeb0039c264c7ef09f028b664745635946",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/5a83aeb406377715b82f785811ac9ffeb0039c264c7ef09f028b664745635946",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 655,
+    "mime": "text/plain",
+    "filename": "episode1_list.txt",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "b67cdf91561b613c4204a40508bcf824129e4f69428ab09da734ef57d7d7ef50",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/b67cdf91561b613c4204a40508bcf824129e4f69428ab09da734ef57d7d7ef50",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 923221,
+    "mime": "image/png",
+    "filename": "episode2_check.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "1fd62805ad0d9c24a1b60a1cceb950e80152df628ea482eda56879e176aeac79",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/1fd62805ad0d9c24a1b60a1cceb950e80152df628ea482eda56879e176aeac79",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 12570434,
+    "mime": "video/mp4",
+    "filename": "episode2_concat.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "0e107bf518f759021223056ce08a79c940a766c540bbc29b0d838260bd8959e1",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/0e107bf518f759021223056ce08a79c940a766c540bbc29b0d838260bd8959e1",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 655,
+    "mime": "text/plain",
+    "filename": "episode2_list.txt",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "01aa3de25e2ad085a8aebad76980fd40486caf7e69517a3a496edfd1558393b1",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/01aa3de25e2ad085a8aebad76980fd40486caf7e69517a3a496edfd1558393b1",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 12990592,
+    "mime": "video/mp4",
+    "filename": "episode3_concat.mp4",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "b4072e038fc18289ad63bbebc53e3923d50c0aa5cdc56f216afddfdbc3721a2c",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/b4072e038fc18289ad63bbebc53e3923d50c0aa5cdc56f216afddfdbc3721a2c",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 655,
+    "mime": "text/plain",
+    "filename": "episode3_list.txt",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "ece2716931974625a2aeed37894248548bb29a5ec95f3b03a84d1036b7d96d62",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/ece2716931974625a2aeed37894248548bb29a5ec95f3b03a84d1036b7d96d62",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 623964,
+    "mime": "image/png",
+    "filename": "generated-image-18f687ed0f8c.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "5d180da8394a82081352928b96d30208139e079422ce0b197814104961cc7d41",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/5d180da8394a82081352928b96d30208139e079422ce0b197814104961cc7d41",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 673345,
+    "mime": "image/png",
+    "filename": "generated-image-2ceb3b3676dd.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "9d3e3d301db602087b6fa12eeb0f7f54c07880a8a019e224c4477c7b6a450644",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/9d3e3d301db602087b6fa12eeb0f7f54c07880a8a019e224c4477c7b6a450644",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 654189,
+    "mime": "image/png",
+    "filename": "generated-image-381dd7a3111c.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "a21386b8f5f7a3efaf89730d944e4942747ea41e9345b5bf0ea24341c065610e",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/a21386b8f5f7a3efaf89730d944e4942747ea41e9345b5bf0ea24341c065610e",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 727264,
+    "mime": "image/png",
+    "filename": "generated-image-3d651523d9a7.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "b277a62fe69a30ca196254ac0dddbf77c1bc41f701f1ceedb7a10ec4cb99296a",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/b277a62fe69a30ca196254ac0dddbf77c1bc41f701f1ceedb7a10ec4cb99296a",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 694777,
+    "mime": "image/png",
+    "filename": "generated-image-5527f2b83002.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "b4c5bdae71f00bede5b3c7e02992cdffe111f0b1d69b2ebbcd4d4db57cfa5ac3",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/b4c5bdae71f00bede5b3c7e02992cdffe111f0b1d69b2ebbcd4d4db57cfa5ac3",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 684070,
+    "mime": "image/png",
+    "filename": "generated-image-57cc968e9627.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "95dfd38a7ade8a8553d8e6c1ba1032fb9d6fd58d26d993e35254c2991c9c4933",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/95dfd38a7ade8a8553d8e6c1ba1032fb9d6fd58d26d993e35254c2991c9c4933",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 739565,
+    "mime": "image/png",
+    "filename": "generated-image-6ca74a61d4d6.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "6cca9c49d62a70c3fa454b99470394a35a5b08d1c83f03c9da8e2cd13ac32c78",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/6cca9c49d62a70c3fa454b99470394a35a5b08d1c83f03c9da8e2cd13ac32c78",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 622502,
+    "mime": "image/png",
+    "filename": "generated-image-78cfcc912add.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "823ae898044bef0394ee50ec8d34cc3083a84cf39034b38c867a1e7b06edeee6",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/823ae898044bef0394ee50ec8d34cc3083a84cf39034b38c867a1e7b06edeee6",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 653119,
+    "mime": "image/png",
+    "filename": "generated-image-7eddbcba9bba.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "d76927b849b5b4e80b3084f72515f374d72721b51d633cbb51fb7488b9e8b561",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/d76927b849b5b4e80b3084f72515f374d72721b51d633cbb51fb7488b9e8b561",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 691975,
+    "mime": "image/png",
+    "filename": "generated-image-87ab15325c61.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "5197ae77b346f12bdbd7b2090f34f95d67a6a79dda71cd42fd447f32b32518d8",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/5197ae77b346f12bdbd7b2090f34f95d67a6a79dda71cd42fd447f32b32518d8",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 666472,
+    "mime": "image/png",
+    "filename": "generated-image-8f318f68668e.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "876f53878535904734797a7b37069fb5081437dd7cc5d67fcb0fad5113adb096",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/876f53878535904734797a7b37069fb5081437dd7cc5d67fcb0fad5113adb096",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 609421,
+    "mime": "image/png",
+    "filename": "generated-image-9c650287e1c6.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "6720ff20f37c5603b0df96e003de94df6c1efe512942874b2cd2e974e6c083ef",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/6720ff20f37c5603b0df96e003de94df6c1efe512942874b2cd2e974e6c083ef",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 700732,
+    "mime": "image/png",
+    "filename": "generated-image-bccd95eb0483.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "2a23735ec66ecdbe95d1503d09dfd728bff2dd9ec56e769f793c106fd5f8b0eb",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/2a23735ec66ecdbe95d1503d09dfd728bff2dd9ec56e769f793c106fd5f8b0eb",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 650676,
+    "mime": "image/png",
+    "filename": "generated-image-cbe7b75ddbd7.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "52b6c47f3708209580c665f14c2930780e5706109ffeb0de12b51ba2dcf56b7b",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/52b6c47f3708209580c665f14c2930780e5706109ffeb0de12b51ba2dcf56b7b",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 695897,
+    "mime": "image/png",
+    "filename": "generated-image-d6d16dafef9e.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "97e680036e6bae74126ef0062ba25b5905e699f6223365cda7f05edec03a1940",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/97e680036e6bae74126ef0062ba25b5905e699f6223365cda7f05edec03a1940",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 604525,
+    "mime": "image/png",
+    "filename": "generated-image-daf31e96da77.png",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "0de43bb579d7b8dd6e790afc3223de76e4d2629eafd46ea09f74a405f9b78a09",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/0de43bb579d7b8dd6e790afc3223de76e4d2629eafd46ea09f74a405f9b78a09",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 171,
+    "mime": "application/json",
+    "filename": "retry_results.json",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "2edd662abf01047919594c9f13fada5ba6ac47cd23075162c138e89684a2e9cf",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/2edd662abf01047919594c9f13fada5ba6ac47cd23075162c138e89684a2e9cf",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 527,
+    "mime": "application/json",
+    "filename": "video_jobs.json",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  },
+  {
+   "kind": "attachment",
+   "content_address": "5782df4e222df8e4b8f9a09bb213fac8ef603aa67f9d1ebb17dde4d48a8794f1",
+   "generation_id": null,
+   "cost": {
+    "amount_usd": null,
+    "currency": "USD",
+    "status": null,
+    "resolution_source": null,
+    "missing_reason": null,
+    "ext": {}
+   },
+   "resolution_source": null,
+   "status": "available",
+   "ts": null,
+   "provenance": "native",
+   "source": {
+    "store_uri": "blob://attachments/5782df4e222df8e4b8f9a09bb213fac8ef603aa67f9d1ebb17dde4d48a8794f1",
+    "source": "opensquilla_workspace",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   },
+   "ext": {
+    "size": 979,
+    "mime": "application/json",
+    "filename": "video_results.json",
+    "origin": "generated",
+    "mode": "output",
+    "attribution": "unattributed"
+   }
+  }
+ ],
+ "generatedAttachments": [
+  {
+   "sha256": "aa8cc9bc2d01d80d9a90c0bfd601323e5945e82a010e53b0e88b80200466652a",
+   "size": 204,
+   "mime": "application/json",
+   "filename": "workspace-state.json",
+   "store_uri": "blob://attachments/aa8cc9bc2d01d80d9a90c0bfd601323e5945e82a010e53b0e88b80200466652a",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "c65e9ae77f824ac0c1eb320031d511338d316040eba998902054a0a544302c8e",
+   "size": 1605,
+   "mime": "text/markdown",
+   "filename": "AGENTS.md",
+   "store_uri": "blob://attachments/c65e9ae77f824ac0c1eb320031d511338d316040eba998902054a0a544302c8e",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "ccccf2004a053daab5160f99038c0209541e4f346ca2aa25560c4f04517af8be",
+   "size": 1069,
+   "mime": "text/markdown",
+   "filename": "BOOTSTRAP.md",
+   "store_uri": "blob://attachments/ccccf2004a053daab5160f99038c0209541e4f346ca2aa25560c4f04517af8be",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "368b59816226ea418bf80c3b16b1d027fa4ddffe3fa08b1780f7db80514f3bbb",
+   "size": 435,
+   "mime": "text/markdown",
+   "filename": "HEARTBEAT.md",
+   "store_uri": "blob://attachments/368b59816226ea418bf80c3b16b1d027fa4ddffe3fa08b1780f7db80514f3bbb",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "74b92f78e825c978ed6b49e490347661fbaa346468546d009d23fd7303c8027a",
+   "size": 382,
+   "mime": "text/markdown",
+   "filename": "IDENTITY.md",
+   "store_uri": "blob://attachments/74b92f78e825c978ed6b49e490347661fbaa346468546d009d23fd7303c8027a",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "931e0bdc4de67a4ee807f3fdb404b8e10e0ad6a4b0f557136357bccfd9fabf1f",
+   "size": 642,
+   "mime": "text/markdown",
+   "filename": "MEMORY.md",
+   "store_uri": "blob://attachments/931e0bdc4de67a4ee807f3fdb404b8e10e0ad6a4b0f557136357bccfd9fabf1f",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "a0061fa01720975c8810da552e02418b5cd0f6d041279199c1d3062e6587526e",
+   "size": 612,
+   "mime": "text/markdown",
+   "filename": "SOUL.md",
+   "store_uri": "blob://attachments/a0061fa01720975c8810da552e02418b5cd0f6d041279199c1d3062e6587526e",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "dd0c5514ab7b0016349d18115a5a31b9fb0f96449ec4281824c8cc0780cac573",
+   "size": 395,
+   "mime": "text/markdown",
+   "filename": "TOOLS.md",
+   "store_uri": "blob://attachments/dd0c5514ab7b0016349d18115a5a31b9fb0f96449ec4281824c8cc0780cac573",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "852a3c481dd07f1644726a5acaf6eeda1b6e1bdd8b1ad7efd8c9d7173153c05f",
+   "size": 326,
+   "mime": "text/markdown",
+   "filename": "USER.md",
+   "store_uri": "blob://attachments/852a3c481dd07f1644726a5acaf6eeda1b6e1bdd8b1ad7efd8c9d7173153c05f",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "size": 0,
+   "mime": null,
+   "filename": ".migrated",
+   "store_uri": "blob://attachments/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "e523d98846832b21889c27731f5179c498f1ef83919d26cd1b6823701e89cc06",
+   "size": 2557,
+   "mime": "text/x-sh",
+   "filename": "assemble.sh",
+   "store_uri": "blob://attachments/e523d98846832b21889c27731f5179c498f1ef83919d26cd1b6823701e89cc06",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 131,
+    "tool_use_id": "call_93c5e291c209460ca5109dcd",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "7e7b7dde7885bd980ef0f0236a8b25c3aec31680ffc4915e8365d222e569e576",
+   "size": 11466044,
+   "mime": "audio/x-wav",
+   "filename": "bgm_tension.wav",
+   "store_uri": "blob://attachments/7e7b7dde7885bd980ef0f0236a8b25c3aec31680ffc4915e8365d222e569e576",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 112,
+    "tool_use_id": "call_09a70d16694f43e58aba5ea3",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "cfa38a10cade16793a32bc0d16bec07bd09fe1e00e787ac7d87de334214e0850",
+   "size": 939521,
+   "mime": "image/png",
+   "filename": "cover.png",
+   "store_uri": "blob://attachments/cfa38a10cade16793a32bc0d16bec07bd09fe1e00e787ac7d87de334214e0850",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "0a1ec60f70e434bed2a2eb3b880707de14dbfca4e92c15bfdeff093f12a6cb41",
+   "size": 1046359,
+   "mime": "image/png",
+   "filename": "ep1_s1.png",
+   "store_uri": "blob://attachments/0a1ec60f70e434bed2a2eb3b880707de14dbfca4e92c15bfdeff093f12a6cb41",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "beeb50436311995d822af65de845dc5ddebac9d8bb62c5f0b7c6603ed5517204",
+   "size": 1088740,
+   "mime": "image/png",
+   "filename": "ep1_s2.png",
+   "store_uri": "blob://attachments/beeb50436311995d822af65de845dc5ddebac9d8bb62c5f0b7c6603ed5517204",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "18a001c2dd294bebb51bf971c77487551821c67c21d35d7352aecc581405ce12",
+   "size": 1018751,
+   "mime": "image/png",
+   "filename": "ep1_s3.png",
+   "store_uri": "blob://attachments/18a001c2dd294bebb51bf971c77487551821c67c21d35d7352aecc581405ce12",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "4bef31b09300ba0aeb9e8d7289157cbe9499a1c900a14ab98602e821a0f7ec9e",
+   "size": 1012343,
+   "mime": "image/png",
+   "filename": "ep1_s4.png",
+   "store_uri": "blob://attachments/4bef31b09300ba0aeb9e8d7289157cbe9499a1c900a14ab98602e821a0f7ec9e",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "1e6a46fd7e1ab6db424f2912b7f3fff84edcd635c2f1d435319ddf8fb678f6f4",
+   "size": 1041769,
+   "mime": "image/png",
+   "filename": "ep1_s5.png",
+   "store_uri": "blob://attachments/1e6a46fd7e1ab6db424f2912b7f3fff84edcd635c2f1d435319ddf8fb678f6f4",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "98626b86d217d395bce700d9a5295c30f975e956aefbbcba8a16ee6af611f76d",
+   "size": 950188,
+   "mime": "image/png",
+   "filename": "ep2_s1.png",
+   "store_uri": "blob://attachments/98626b86d217d395bce700d9a5295c30f975e956aefbbcba8a16ee6af611f76d",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "cb9bbd785a0084524088a729049b1ef86e094c378da1708f79b246bd213a3c30",
+   "size": 962194,
+   "mime": "image/png",
+   "filename": "ep2_s2.png",
+   "store_uri": "blob://attachments/cb9bbd785a0084524088a729049b1ef86e094c378da1708f79b246bd213a3c30",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "654332c73bbdf0cb43777af44b18e65288c6aa4463bd9d2aee9f2ec3251a6fd5",
+   "size": 1031929,
+   "mime": "image/png",
+   "filename": "ep2_s3.png",
+   "store_uri": "blob://attachments/654332c73bbdf0cb43777af44b18e65288c6aa4463bd9d2aee9f2ec3251a6fd5",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "cbd9bd350c9e334084643e1bc6ac325b1f61835c8572c18af472bf9d9a086017",
+   "size": 1120470,
+   "mime": "image/png",
+   "filename": "ep2_s4.png",
+   "store_uri": "blob://attachments/cbd9bd350c9e334084643e1bc6ac325b1f61835c8572c18af472bf9d9a086017",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "5c1131ecc61024487c3484556428ab57f165d9a87bd2b69e03d5ccb4b0db1f2c",
+   "size": 1046718,
+   "mime": "image/png",
+   "filename": "ep2_s5.png",
+   "store_uri": "blob://attachments/5c1131ecc61024487c3484556428ab57f165d9a87bd2b69e03d5ccb4b0db1f2c",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "d4d07ca7f0815a4ffd13766a251f3ff69cc2db28aef4da8065ead2264fa2f286",
+   "size": 965992,
+   "mime": "image/png",
+   "filename": "ep3_s1.png",
+   "store_uri": "blob://attachments/d4d07ca7f0815a4ffd13766a251f3ff69cc2db28aef4da8065ead2264fa2f286",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "8c58667f278a9222aef05b691c320c347dbe6d689b1e2929db25ab74b612e957",
+   "size": 938846,
+   "mime": "image/png",
+   "filename": "ep3_s2.png",
+   "store_uri": "blob://attachments/8c58667f278a9222aef05b691c320c347dbe6d689b1e2929db25ab74b612e957",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "7b0deb8bce3e1640059c22f012ec3c97f6d80e18cd4d6223fa7fdf3f3bb787c5",
+   "size": 1028709,
+   "mime": "image/png",
+   "filename": "ep3_s3.png",
+   "store_uri": "blob://attachments/7b0deb8bce3e1640059c22f012ec3c97f6d80e18cd4d6223fa7fdf3f3bb787c5",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "aa7c34bd58de314ae099ff1678cf4d727e5097bc09220258daf819e714a4f75c",
+   "size": 1048836,
+   "mime": "image/png",
+   "filename": "ep3_s4.png",
+   "store_uri": "blob://attachments/aa7c34bd58de314ae099ff1678cf4d727e5097bc09220258daf819e714a4f75c",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "d06a6098ff797e9a11ad829d76be606d52b0af322415c169b5906eea5dacfe5f",
+   "size": 981552,
+   "mime": "image/png",
+   "filename": "ep3_s5.png",
+   "store_uri": "blob://attachments/d06a6098ff797e9a11ad829d76be606d52b0af322415c169b5906eea5dacfe5f",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "97e680036e6bae74126ef0062ba25b5905e699f6223365cda7f05edec03a1940",
+   "size": 604525,
+   "mime": "image/png",
+   "filename": "cover.png",
+   "store_uri": "blob://attachments/97e680036e6bae74126ef0062ba25b5905e699f6223365cda7f05edec03a1940",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 154,
+    "tool_use_id": "call_a34347fb1233440cadd0ff36",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "d76927b849b5b4e80b3084f72515f374d72721b51d633cbb51fb7488b9e8b561",
+   "size": 691975,
+   "mime": "image/png",
+   "filename": "ep1_s1.png",
+   "store_uri": "blob://attachments/d76927b849b5b4e80b3084f72515f374d72721b51d633cbb51fb7488b9e8b561",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "a21386b8f5f7a3efaf89730d944e4942747ea41e9345b5bf0ea24341c065610e",
+   "size": 727264,
+   "mime": "image/png",
+   "filename": "ep1_s2.png",
+   "store_uri": "blob://attachments/a21386b8f5f7a3efaf89730d944e4942747ea41e9345b5bf0ea24341c065610e",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "5197ae77b346f12bdbd7b2090f34f95d67a6a79dda71cd42fd447f32b32518d8",
+   "size": 666472,
+   "mime": "image/png",
+   "filename": "ep1_s3.png",
+   "store_uri": "blob://attachments/5197ae77b346f12bdbd7b2090f34f95d67a6a79dda71cd42fd447f32b32518d8",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "823ae898044bef0394ee50ec8d34cc3083a84cf39034b38c867a1e7b06edeee6",
+   "size": 653119,
+   "mime": "image/png",
+   "filename": "ep1_s4.png",
+   "store_uri": "blob://attachments/823ae898044bef0394ee50ec8d34cc3083a84cf39034b38c867a1e7b06edeee6",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "b277a62fe69a30ca196254ac0dddbf77c1bc41f701f1ceedb7a10ec4cb99296a",
+   "size": 694777,
+   "mime": "image/png",
+   "filename": "ep1_s5.png",
+   "store_uri": "blob://attachments/b277a62fe69a30ca196254ac0dddbf77c1bc41f701f1ceedb7a10ec4cb99296a",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "ece2716931974625a2aeed37894248548bb29a5ec95f3b03a84d1036b7d96d62",
+   "size": 623964,
+   "mime": "image/png",
+   "filename": "ep2_s1.png",
+   "store_uri": "blob://attachments/ece2716931974625a2aeed37894248548bb29a5ec95f3b03a84d1036b7d96d62",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "6cca9c49d62a70c3fa454b99470394a35a5b08d1c83f03c9da8e2cd13ac32c78",
+   "size": 622502,
+   "mime": "image/png",
+   "filename": "ep2_s2.png",
+   "store_uri": "blob://attachments/6cca9c49d62a70c3fa454b99470394a35a5b08d1c83f03c9da8e2cd13ac32c78",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "b4c5bdae71f00bede5b3c7e02992cdffe111f0b1d69b2ebbcd4d4db57cfa5ac3",
+   "size": 684070,
+   "mime": "image/png",
+   "filename": "ep2_s3.png",
+   "store_uri": "blob://attachments/b4c5bdae71f00bede5b3c7e02992cdffe111f0b1d69b2ebbcd4d4db57cfa5ac3",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "95dfd38a7ade8a8553d8e6c1ba1032fb9d6fd58d26d993e35254c2991c9c4933",
+   "size": 739565,
+   "mime": "image/png",
+   "filename": "ep2_s4.png",
+   "store_uri": "blob://attachments/95dfd38a7ade8a8553d8e6c1ba1032fb9d6fd58d26d993e35254c2991c9c4933",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "5d180da8394a82081352928b96d30208139e079422ce0b197814104961cc7d41",
+   "size": 673345,
+   "mime": "image/png",
+   "filename": "ep2_s5.png",
+   "store_uri": "blob://attachments/5d180da8394a82081352928b96d30208139e079422ce0b197814104961cc7d41",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "2a23735ec66ecdbe95d1503d09dfd728bff2dd9ec56e769f793c106fd5f8b0eb",
+   "size": 650676,
+   "mime": "image/png",
+   "filename": "ep3_s1.png",
+   "store_uri": "blob://attachments/2a23735ec66ecdbe95d1503d09dfd728bff2dd9ec56e769f793c106fd5f8b0eb",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "876f53878535904734797a7b37069fb5081437dd7cc5d67fcb0fad5113adb096",
+   "size": 609421,
+   "mime": "image/png",
+   "filename": "ep3_s2.png",
+   "store_uri": "blob://attachments/876f53878535904734797a7b37069fb5081437dd7cc5d67fcb0fad5113adb096",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "52b6c47f3708209580c665f14c2930780e5706109ffeb0de12b51ba2dcf56b7b",
+   "size": 695897,
+   "mime": "image/png",
+   "filename": "ep3_s3.png",
+   "store_uri": "blob://attachments/52b6c47f3708209580c665f14c2930780e5706109ffeb0de12b51ba2dcf56b7b",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "6720ff20f37c5603b0df96e003de94df6c1efe512942874b2cd2e974e6c083ef",
+   "size": 700732,
+   "mime": "image/png",
+   "filename": "ep3_s4.png",
+   "store_uri": "blob://attachments/6720ff20f37c5603b0df96e003de94df6c1efe512942874b2cd2e974e6c083ef",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "9d3e3d301db602087b6fa12eeb0f7f54c07880a8a019e224c4477c7b6a450644",
+   "size": 654189,
+   "mime": "image/png",
+   "filename": "ep3_s5.png",
+   "store_uri": "blob://attachments/9d3e3d301db602087b6fa12eeb0f7f54c07880a8a019e224c4477c7b6a450644",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "6a0c42c103bd3cea4b193bd67005a0ea74fca64d9a9107c088ccf897bb14cfc4",
+   "size": 864,
+   "mime": "text/plain",
+   "filename": "ep1.srt",
+   "store_uri": "blob://attachments/6a0c42c103bd3cea4b193bd67005a0ea74fca64d9a9107c088ccf897bb14cfc4",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "8f828adbd5a96ce319c0b1d56915f32ee574232a823834781dab37a13f9c0649",
+   "size": 808,
+   "mime": "text/plain",
+   "filename": "ep2.srt",
+   "store_uri": "blob://attachments/8f828adbd5a96ce319c0b1d56915f32ee574232a823834781dab37a13f9c0649",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "43c4016cd2b8e266f8a283af9b13778a42d140d8073470abfd24d5ed0acd333e",
+   "size": 912,
+   "mime": "text/plain",
+   "filename": "ep3.srt",
+   "store_uri": "blob://attachments/43c4016cd2b8e266f8a283af9b13778a42d140d8073470abfd24d5ed0acd333e",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "6a0c42c103bd3cea4b193bd67005a0ea74fca64d9a9107c088ccf897bb14cfc4",
+   "size": 864,
+   "mime": "text/plain",
+   "filename": "episode1.srt",
+   "store_uri": "blob://attachments/6a0c42c103bd3cea4b193bd67005a0ea74fca64d9a9107c088ccf897bb14cfc4",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "8f828adbd5a96ce319c0b1d56915f32ee574232a823834781dab37a13f9c0649",
+   "size": 808,
+   "mime": "text/plain",
+   "filename": "episode2.srt",
+   "store_uri": "blob://attachments/8f828adbd5a96ce319c0b1d56915f32ee574232a823834781dab37a13f9c0649",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "43c4016cd2b8e266f8a283af9b13778a42d140d8073470abfd24d5ed0acd333e",
+   "size": 912,
+   "mime": "text/plain",
+   "filename": "episode3.srt",
+   "store_uri": "blob://attachments/43c4016cd2b8e266f8a283af9b13778a42d140d8073470abfd24d5ed0acd333e",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "0f25c55cb6e7adb8c0d0fe31be642216dcd74c979612d8b82304bbe1d8015273",
+   "size": 5292117,
+   "mime": "video/mp4",
+   "filename": "ep1_s1.mp4",
+   "store_uri": "blob://attachments/0f25c55cb6e7adb8c0d0fe31be642216dcd74c979612d8b82304bbe1d8015273",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "358285897ae3790ec7189f9e7e13ee332d59193fa29e1e9cf58aa756963f58fb",
+   "size": 6351082,
+   "mime": "video/mp4",
+   "filename": "ep1_s2.mp4",
+   "store_uri": "blob://attachments/358285897ae3790ec7189f9e7e13ee332d59193fa29e1e9cf58aa756963f58fb",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "b07591cfb800624bd0b534919efb11bd3a7af7a074215771ff35a2227b7ff917",
+   "size": 6086032,
+   "mime": "video/mp4",
+   "filename": "ep1_s3.mp4",
+   "store_uri": "blob://attachments/b07591cfb800624bd0b534919efb11bd3a7af7a074215771ff35a2227b7ff917",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "daa4ff8fd5baa3feb4ad133659e7cdc497897bf287a0e4fd306eca4ff2df85fb",
+   "size": 5479752,
+   "mime": "video/mp4",
+   "filename": "ep1_s4.mp4",
+   "store_uri": "blob://attachments/daa4ff8fd5baa3feb4ad133659e7cdc497897bf287a0e4fd306eca4ff2df85fb",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "55d4902d17dc5c49b0964832f952e570e5834be2f8a39e196f902e335b2363de",
+   "size": 6451480,
+   "mime": "video/mp4",
+   "filename": "ep1_s5.mp4",
+   "store_uri": "blob://attachments/55d4902d17dc5c49b0964832f952e570e5834be2f8a39e196f902e335b2363de",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "779eabf8c3ac9deb60d5cbd832172c95800b6bf150031f02d8ad54a7fcf83ff3",
+   "size": 6899448,
+   "mime": "video/mp4",
+   "filename": "ep2_s1.mp4",
+   "store_uri": "blob://attachments/779eabf8c3ac9deb60d5cbd832172c95800b6bf150031f02d8ad54a7fcf83ff3",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "3758387a61fb3effa4a3a341396450ba1191fa2a24f5c241bb749381150b3930",
+   "size": 6526283,
+   "mime": "video/mp4",
+   "filename": "ep2_s2.mp4",
+   "store_uri": "blob://attachments/3758387a61fb3effa4a3a341396450ba1191fa2a24f5c241bb749381150b3930",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "0f48e802fab9565c3ee74091c0dde44d9fbdb5d0a669b6d9fdaf8ff11a38db11",
+   "size": 5303664,
+   "mime": "video/mp4",
+   "filename": "ep2_s3.mp4",
+   "store_uri": "blob://attachments/0f48e802fab9565c3ee74091c0dde44d9fbdb5d0a669b6d9fdaf8ff11a38db11",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "d8e60e29b2e7fb74469c80d14a9aecef2775e17861cd7f93ad4de26a4f0341ed",
+   "size": 6256155,
+   "mime": "video/mp4",
+   "filename": "ep2_s4.mp4",
+   "store_uri": "blob://attachments/d8e60e29b2e7fb74469c80d14a9aecef2775e17861cd7f93ad4de26a4f0341ed",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "0948ef379718b7c58758a894f819424a11d23b36d10c5cd1e3775ab354181529",
+   "size": 5715517,
+   "mime": "video/mp4",
+   "filename": "ep2_s5.mp4",
+   "store_uri": "blob://attachments/0948ef379718b7c58758a894f819424a11d23b36d10c5cd1e3775ab354181529",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "d195aa65c63b6cb922d9700486f1dc8272932f3b867b6e121481d82b85b558cd",
+   "size": 7451265,
+   "mime": "video/mp4",
+   "filename": "ep3_s1.mp4",
+   "store_uri": "blob://attachments/d195aa65c63b6cb922d9700486f1dc8272932f3b867b6e121481d82b85b558cd",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "069a660669d69aa74278ac8074710a55c97f244ea1e8a7d7575402819686415c",
+   "size": 5800232,
+   "mime": "video/mp4",
+   "filename": "ep3_s2.mp4",
+   "store_uri": "blob://attachments/069a660669d69aa74278ac8074710a55c97f244ea1e8a7d7575402819686415c",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "5ad957aff3ce7089d3fe204951eab93d73940bf73cb4e0902ed1179530406264",
+   "size": 5868342,
+   "mime": "video/mp4",
+   "filename": "ep3_s3.mp4",
+   "store_uri": "blob://attachments/5ad957aff3ce7089d3fe204951eab93d73940bf73cb4e0902ed1179530406264",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "a902874e621ae591b6e963664fada7b75b865769682627823ac30a6ee945cfed",
+   "size": 6238547,
+   "mime": "video/mp4",
+   "filename": "ep3_s4.mp4",
+   "store_uri": "blob://attachments/a902874e621ae591b6e963664fada7b75b865769682627823ac30a6ee945cfed",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "a00aa5823889b07e8f43a7aefa9a178e0fafcf0c87ede3c6aa24702d87dd45eb",
+   "size": 6360015,
+   "mime": "video/mp4",
+   "filename": "ep3_s5.mp4",
+   "store_uri": "blob://attachments/a00aa5823889b07e8f43a7aefa9a178e0fafcf0c87ede3c6aa24702d87dd45eb",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "f73d3d3fc9884fe7f0cf549f348a88f751a8bbfbc0404de8a79c9a6b21d5e3f9",
+   "size": 1003216,
+   "mime": "image/png",
+   "filename": "episode1_check.png",
+   "store_uri": "blob://attachments/f73d3d3fc9884fe7f0cf549f348a88f751a8bbfbc0404de8a79c9a6b21d5e3f9",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 146,
+    "tool_use_id": "call_11cac4caed5a48abba906a13",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "7e71cbff2f6d98b56019696e0c1ebff925f77af14e48795a83ca58691db868f5",
+   "size": 12057418,
+   "mime": "video/mp4",
+   "filename": "episode1_concat.mp4",
+   "store_uri": "blob://attachments/7e71cbff2f6d98b56019696e0c1ebff925f77af14e48795a83ca58691db868f5",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "5a83aeb406377715b82f785811ac9ffeb0039c264c7ef09f028b664745635946",
+   "size": 655,
+   "mime": "text/plain",
+   "filename": "episode1_list.txt",
+   "store_uri": "blob://attachments/5a83aeb406377715b82f785811ac9ffeb0039c264c7ef09f028b664745635946",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "b67cdf91561b613c4204a40508bcf824129e4f69428ab09da734ef57d7d7ef50",
+   "size": 923221,
+   "mime": "image/png",
+   "filename": "episode2_check.png",
+   "store_uri": "blob://attachments/b67cdf91561b613c4204a40508bcf824129e4f69428ab09da734ef57d7d7ef50",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "1fd62805ad0d9c24a1b60a1cceb950e80152df628ea482eda56879e176aeac79",
+   "size": 12570434,
+   "mime": "video/mp4",
+   "filename": "episode2_concat.mp4",
+   "store_uri": "blob://attachments/1fd62805ad0d9c24a1b60a1cceb950e80152df628ea482eda56879e176aeac79",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "0e107bf518f759021223056ce08a79c940a766c540bbc29b0d838260bd8959e1",
+   "size": 655,
+   "mime": "text/plain",
+   "filename": "episode2_list.txt",
+   "store_uri": "blob://attachments/0e107bf518f759021223056ce08a79c940a766c540bbc29b0d838260bd8959e1",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "3957e8dddb9d0a117af32dae18111adf2981422fc5ecfcf7f0dde0e2ef79a637",
+   "size": 787207,
+   "mime": "image/png",
+   "filename": "episode3_check.png",
+   "store_uri": "blob://attachments/3957e8dddb9d0a117af32dae18111adf2981422fc5ecfcf7f0dde0e2ef79a637",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 147,
+    "tool_use_id": "call_ea6666c27243421ea73724e8",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "01aa3de25e2ad085a8aebad76980fd40486caf7e69517a3a496edfd1558393b1",
+   "size": 12990592,
+   "mime": "video/mp4",
+   "filename": "episode3_concat.mp4",
+   "store_uri": "blob://attachments/01aa3de25e2ad085a8aebad76980fd40486caf7e69517a3a496edfd1558393b1",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "b4072e038fc18289ad63bbebc53e3923d50c0aa5cdc56f216afddfdbc3721a2c",
+   "size": 655,
+   "mime": "text/plain",
+   "filename": "episode3_list.txt",
+   "store_uri": "blob://attachments/b4072e038fc18289ad63bbebc53e3923d50c0aa5cdc56f216afddfdbc3721a2c",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "898358236b7d6e20a0f98ec8907885b07dda84d3e6e6de5a452d83e3c1e8d5a1",
+   "size": 3018,
+   "mime": "text/x-python",
+   "filename": "build_srt.py",
+   "store_uri": "blob://attachments/898358236b7d6e20a0f98ec8907885b07dda84d3e6e6de5a452d83e3c1e8d5a1",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 125,
+    "tool_use_id": "call_391b0dead85f43a8ae7f1130",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "d62a401d2c1da8cca1669701e8d1533f78752a914d39801bd1ab0a7263ad8e73",
+   "size": 8864,
+   "mime": "text/markdown",
+   "filename": "creative_package.md",
+   "store_uri": "blob://attachments/d62a401d2c1da8cca1669701e8d1533f78752a914d39801bd1ab0a7263ad8e73",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 18,
+    "tool_use_id": "call_8392073336124d47a7d05ade",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "ece2716931974625a2aeed37894248548bb29a5ec95f3b03a84d1036b7d96d62",
+   "size": 623964,
+   "mime": "image/png",
+   "filename": "generated-image-18f687ed0f8c.png",
+   "store_uri": "blob://attachments/ece2716931974625a2aeed37894248548bb29a5ec95f3b03a84d1036b7d96d62",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "5d180da8394a82081352928b96d30208139e079422ce0b197814104961cc7d41",
+   "size": 673345,
+   "mime": "image/png",
+   "filename": "generated-image-2ceb3b3676dd.png",
+   "store_uri": "blob://attachments/5d180da8394a82081352928b96d30208139e079422ce0b197814104961cc7d41",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "9d3e3d301db602087b6fa12eeb0f7f54c07880a8a019e224c4477c7b6a450644",
+   "size": 654189,
+   "mime": "image/png",
+   "filename": "generated-image-381dd7a3111c.png",
+   "store_uri": "blob://attachments/9d3e3d301db602087b6fa12eeb0f7f54c07880a8a019e224c4477c7b6a450644",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "a21386b8f5f7a3efaf89730d944e4942747ea41e9345b5bf0ea24341c065610e",
+   "size": 727264,
+   "mime": "image/png",
+   "filename": "generated-image-3d651523d9a7.png",
+   "store_uri": "blob://attachments/a21386b8f5f7a3efaf89730d944e4942747ea41e9345b5bf0ea24341c065610e",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "b277a62fe69a30ca196254ac0dddbf77c1bc41f701f1ceedb7a10ec4cb99296a",
+   "size": 694777,
+   "mime": "image/png",
+   "filename": "generated-image-5527f2b83002.png",
+   "store_uri": "blob://attachments/b277a62fe69a30ca196254ac0dddbf77c1bc41f701f1ceedb7a10ec4cb99296a",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "b4c5bdae71f00bede5b3c7e02992cdffe111f0b1d69b2ebbcd4d4db57cfa5ac3",
+   "size": 684070,
+   "mime": "image/png",
+   "filename": "generated-image-57cc968e9627.png",
+   "store_uri": "blob://attachments/b4c5bdae71f00bede5b3c7e02992cdffe111f0b1d69b2ebbcd4d4db57cfa5ac3",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "95dfd38a7ade8a8553d8e6c1ba1032fb9d6fd58d26d993e35254c2991c9c4933",
+   "size": 739565,
+   "mime": "image/png",
+   "filename": "generated-image-6ca74a61d4d6.png",
+   "store_uri": "blob://attachments/95dfd38a7ade8a8553d8e6c1ba1032fb9d6fd58d26d993e35254c2991c9c4933",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "6cca9c49d62a70c3fa454b99470394a35a5b08d1c83f03c9da8e2cd13ac32c78",
+   "size": 622502,
+   "mime": "image/png",
+   "filename": "generated-image-78cfcc912add.png",
+   "store_uri": "blob://attachments/6cca9c49d62a70c3fa454b99470394a35a5b08d1c83f03c9da8e2cd13ac32c78",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "823ae898044bef0394ee50ec8d34cc3083a84cf39034b38c867a1e7b06edeee6",
+   "size": 653119,
+   "mime": "image/png",
+   "filename": "generated-image-7eddbcba9bba.png",
+   "store_uri": "blob://attachments/823ae898044bef0394ee50ec8d34cc3083a84cf39034b38c867a1e7b06edeee6",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "d76927b849b5b4e80b3084f72515f374d72721b51d633cbb51fb7488b9e8b561",
+   "size": 691975,
+   "mime": "image/png",
+   "filename": "generated-image-87ab15325c61.png",
+   "store_uri": "blob://attachments/d76927b849b5b4e80b3084f72515f374d72721b51d633cbb51fb7488b9e8b561",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "5197ae77b346f12bdbd7b2090f34f95d67a6a79dda71cd42fd447f32b32518d8",
+   "size": 666472,
+   "mime": "image/png",
+   "filename": "generated-image-8f318f68668e.png",
+   "store_uri": "blob://attachments/5197ae77b346f12bdbd7b2090f34f95d67a6a79dda71cd42fd447f32b32518d8",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "876f53878535904734797a7b37069fb5081437dd7cc5d67fcb0fad5113adb096",
+   "size": 609421,
+   "mime": "image/png",
+   "filename": "generated-image-9c650287e1c6.png",
+   "store_uri": "blob://attachments/876f53878535904734797a7b37069fb5081437dd7cc5d67fcb0fad5113adb096",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "6720ff20f37c5603b0df96e003de94df6c1efe512942874b2cd2e974e6c083ef",
+   "size": 700732,
+   "mime": "image/png",
+   "filename": "generated-image-bccd95eb0483.png",
+   "store_uri": "blob://attachments/6720ff20f37c5603b0df96e003de94df6c1efe512942874b2cd2e974e6c083ef",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "2a23735ec66ecdbe95d1503d09dfd728bff2dd9ec56e769f793c106fd5f8b0eb",
+   "size": 650676,
+   "mime": "image/png",
+   "filename": "generated-image-cbe7b75ddbd7.png",
+   "store_uri": "blob://attachments/2a23735ec66ecdbe95d1503d09dfd728bff2dd9ec56e769f793c106fd5f8b0eb",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "52b6c47f3708209580c665f14c2930780e5706109ffeb0de12b51ba2dcf56b7b",
+   "size": 695897,
+   "mime": "image/png",
+   "filename": "generated-image-d6d16dafef9e.png",
+   "store_uri": "blob://attachments/52b6c47f3708209580c665f14c2930780e5706109ffeb0de12b51ba2dcf56b7b",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "97e680036e6bae74126ef0062ba25b5905e699f6223365cda7f05edec03a1940",
+   "size": 604525,
+   "mime": "image/png",
+   "filename": "generated-image-daf31e96da77.png",
+   "store_uri": "blob://attachments/97e680036e6bae74126ef0062ba25b5905e699f6223365cda7f05edec03a1940",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "0de43bb579d7b8dd6e790afc3223de76e4d2629eafd46ea09f74a405f9b78a09",
+   "size": 171,
+   "mime": "application/json",
+   "filename": "retry_results.json",
+   "store_uri": "blob://attachments/0de43bb579d7b8dd6e790afc3223de76e4d2629eafd46ea09f74a405f9b78a09",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "2edd662abf01047919594c9f13fada5ba6ac47cd23075162c138e89684a2e9cf",
+   "size": 527,
+   "mime": "application/json",
+   "filename": "video_jobs.json",
+   "store_uri": "blob://attachments/2edd662abf01047919594c9f13fada5ba6ac47cd23075162c138e89684a2e9cf",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "5782df4e222df8e4b8f9a09bb213fac8ef603aa67f9d1ebb17dde4d48a8794f1",
+   "size": 979,
+   "mime": "application/json",
+   "filename": "video_results.json",
+   "store_uri": "blob://attachments/5782df4e222df8e4b8f9a09bb213fac8ef603aa67f9d1ebb17dde4d48a8794f1",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": null,
+   "attribution": "unattributed",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "52fdc676c60d9b09ea8f74311479e547fefe9e5f822d1f599561024c397eae17",
+   "size": 18217375,
+   "mime": "video/mp4",
+   "filename": "episode1.mp4",
+   "store_uri": "blob://attachments/52fdc676c60d9b09ea8f74311479e547fefe9e5f822d1f599561024c397eae17",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 151,
+    "tool_use_id": "call_a798baeeea8e4b1aabf8bf56",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "1135fc910795b419d2f68f164fc3df02befbb6675efef59ba0998389c7021b37",
+   "size": 19145313,
+   "mime": "video/mp4",
+   "filename": "episode2.mp4",
+   "store_uri": "blob://attachments/1135fc910795b419d2f68f164fc3df02befbb6675efef59ba0998389c7021b37",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 152,
+    "tool_use_id": "call_1f764531daf7448596118af2",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "1307166559c3c3c5e47277843500f2bbef79c74acd9ba6043eecaf1d304ab2a5",
+   "size": 18944833,
+   "mime": "video/mp4",
+   "filename": "episode3.mp4",
+   "store_uri": "blob://attachments/1307166559c3c3c5e47277843500f2bbef79c74acd9ba6043eecaf1d304ab2a5",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 153,
+    "tool_use_id": "call_0a1ace5112a946e6b1ed8e74",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "628611de2eb58f918c02791995c71b72da8b6c8d4f82f757293701e320d7b657",
+   "size": 1607,
+   "mime": "text/x-python",
+   "filename": "poll_retry.py",
+   "store_uri": "blob://attachments/628611de2eb58f918c02791995c71b72da8b6c8d4f82f757293701e320d7b657",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 108,
+    "tool_use_id": "call_d3ec3e7ddab14dd2a3523bbf",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "82dd340041b861e1917af1115bc49c1416786585b176bb4b2a353f9c5eb33a47",
+   "size": 2209,
+   "mime": "text/x-python",
+   "filename": "poll_videos.py",
+   "store_uri": "blob://attachments/82dd340041b861e1917af1115bc49c1416786585b176bb4b2a353f9c5eb33a47",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 84,
+    "tool_use_id": "call_b2ebcc4c74dc400fa3445011",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  },
+  {
+   "sha256": "c711d5af3c64809d35acb8c75069e8e5ce7a99646a755b029ea85abd5689450f",
+   "size": 5939,
+   "mime": "text/x-python",
+   "filename": "submit_videos.py",
+   "store_uri": "blob://attachments/c711d5af3c64809d35acb8c75069e8e5ce7a99646a755b029ea85abd5689450f",
+   "source": "opensquilla_workspace",
+   "origin": "generated",
+   "mode": "output",
+   "derived_from": null,
+   "produced_at": {
+    "turn_idx": 2,
+    "step_idx": 75,
+    "tool_use_id": "call_e057d1aa80c94e708e3b4617",
+    "ts": "2026-08-24T10:29:20.322000Z"
+   },
+   "attribution": "explicit",
+   "artifact_id": null,
+   "container_path": null,
+   "artifact_role": null
+  }
+ ],
+ "videoRef": {
+  "path": "$RUNS_DIR/traces/hd_sys01_open_deepseekv4flash073_08241758/video_execute/_link_objects/0f/0f25c55cb6e7adb8c0d0fe31be642216dcd74c979612d8b82304bbe1d8015273.mp4",
+  "sha256": "0f25c55cb6e7adb8c0d0fe31be642216dcd74c979612d8b82304bbe1d8015273",
+  "bytes": 5292117,
+  "duration_s": 12.096,
+  "fps": 24.0,
+  "width": 720,
+  "height": 1280,
+  "decode_probe": "ok"
+ },
+ "excludedFrameDirs": []
+}

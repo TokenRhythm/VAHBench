@@ -1,0 +1,48 @@
+{
+ "traceSchema": "opensquilla-trajectory",
+ "schemaVersion": 1,
+ "generatedAt": "2026-08-24T11:45:23.957399",
+ "traceId": "ade23e2b26a930108bd32a08d692ddc4",
+ "sessionId": "ade23e2b26a930108bd32a08d692ddc4",
+ "sessionKey": "opensquilla:cli:video5cat_001",
+ "workspaceDir": "$WORKSPACE_DIR",
+ "eventCount": 143,
+ "sourceFiles": {
+  "transcripts": "$SCRATCH_DIR/.router_pipeline_internal/turn_*/transcript.jsonl",
+  "turnCalls": "$SCRATCH_DIR/.router_pipeline_internal/turn_*/turn-calls-*.jsonl",
+  "sample": "$RUNS_DIR/traces/<run_id>/samples/video5cat_001.json"
+ },
+ "supplementalFiles": [
+  "metadata.json",
+  "artifacts.json",
+  "prompts.json",
+  "tools.json",
+  "session-branch.json"
+ ],
+ "contents": [
+  {
+   "path": "artifacts.json",
+   "bytes": 151477
+  },
+  {
+   "path": "events.jsonl",
+   "bytes": 5544173
+  },
+  {
+   "path": "metadata.json",
+   "bytes": 2184
+  },
+  {
+   "path": "prompts.json",
+   "bytes": 27323
+  },
+  {
+   "path": "session-branch.json",
+   "bytes": 137571
+  },
+  {
+   "path": "tools.json",
+   "bytes": 62484
+  }
+ ]
+}
