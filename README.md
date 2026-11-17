@@ -4,6 +4,7 @@
 Can an AI agent read a brief and turn it into a complete video series?
 VAHBench gives agents five short-drama briefs and scores what they deliver.
 
+[Paper (PDF)](https://arxiv.org/pdf/2611.20535) ·
 [Baseline examples](#2-baseline-examples) ·
 [Setup and usage](#3-setup-and-usage) ·
 [Citation](#citation)
@@ -164,7 +165,9 @@ python -m unittest discover -s tests -t .
 @article{zhang2026vahbench,
   title  = {VAHBench: A Harness Benchmark for Agentic Long-Video Generation},
   author = {Zhang, Hongbo and Song, Liuyang and Zhou, Hang and Liu, Xinchen and He, Wei and Han, Kai and Wang, Yunhe},
-  year   = {2026}
+  year   = {2026},
+  journal = {arXiv preprint arXiv:2611.20535},
+  url    = {https://arxiv.org/pdf/2611.20535}
 }
 ```
 
