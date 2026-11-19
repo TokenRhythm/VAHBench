@@ -5,6 +5,7 @@ Can an AI agent read a brief and turn it into a complete video series?
 VAHBench gives agents five short-drama briefs and scores what they deliver.
 
 [Paper (PDF)](https://arxiv.org/pdf/2611.20535) ·
+[Dataset (Hugging Face)](https://huggingface.co/datasets/TokenRhythm/VAHBench) ·
 [Baseline examples](#2-baseline-examples) ·
 [Setup and usage](#3-setup-and-usage) ·
 [Citation](#citation)
@@ -33,6 +34,17 @@ language model only helps to parse logs; every score comes from fixed rules.
 The five briefs, B1 to B5, ask for 3 × 60 s, 3 × 120 s, 5 × 120 s, 5 × 240 s
 and 6 × 300 s. The paper reports 240 runs from 12 systems with four text
 models each.
+
+The [Hugging Face dataset](https://huggingface.co/datasets/TokenRhythm/VAHBench)
+is organized into two parts:
+
+- [`benchmark/`](https://huggingface.co/datasets/TokenRhythm/VAHBench/tree/main/benchmark):
+  the five full prompts, structured requirements and evaluation configuration.
+- [`examples/`](https://huggingface.co/datasets/TokenRhythm/VAHBench/tree/main/examples):
+  three showcase runs per prompt, with 66 episode videos and execution traces
+  across 15 runs. These include the three baseline examples below.
+
+This curated showcase is a subset of the runs reported in the paper.
 
 The code follows the five stages of the evaluation pipeline in the paper:
 
